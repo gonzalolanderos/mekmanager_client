@@ -1,0 +1,29 @@
+{
+  "name": "mekmanager_client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MekManager/mekmanager_client",
+  "authors": [
+    "Eric Hopkins <scarecrow3322@gmail.com>"
+  ],
+  "description": "The unofficial BattleTech campaign manager",
+  "main": "app.js",
+  "keywords": [
+    "BattleTech",
+    "Mek",
+    "RPG"
+  ],
+  "license": "GNU General Public License v3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.15",
+    "bootstrap": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}

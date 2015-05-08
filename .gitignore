@@ -13,22 +13,31 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
 # node-waf configuration
 .lock-wscript
+
+.sass-cache/
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directory
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
+node_modules/
 
+# Bower components
+bower_components/
+
+# Vendor files
+vendor/
+
+## Editor files
 # vim
 *.*.swp
 *.swp
+
+### Compiled project files ###
+assets/css/
+index.html
 
 # emacs
 .#*.*
