@@ -19,6 +19,16 @@ var gulp = require('gulp'),
         'bower_components/fontawesome/css/font-awesome.css'
     ];
 
+// generic function for vendor file compression
+function vendor(type, files, compressor) {
+    gulp.src(files)
+        .pipe(concat('vendor.' + type))
+        .pipe(gulp.dest('vendor/' + type))
+        .pipe(rename('vendor.min.' + type))
+        .pipe(compressor())
+        .pipe(gulp.dest('vendor/' + type));
+}
+
 gulp.task('default', ['watch']);
 
 gulp.task('init', ['vendorJS', 'vendorCSS', 'copyFonts', 'sass', 'jade']);
@@ -56,23 +66,9 @@ gulp.task('jade', function() {
         .pipe(gulp.dest('.'));
 });
 
-gulp.task('vendorJS', function() {
-    gulp.src(vendorJSFiles)
-        .pipe(concat('vendor.js'))
-        .pipe(gulp.dest('vendor/js'))
-        .pipe(rename('vendor.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('vendor/js'));
-});
+gulp.task('vendorJS', vendor('js', vendorJSFiles, uglify));
 
-gulp.task('vendorCSS', function() {
-    gulp.src(vendorCSSFiles)
-        .pipe(concat('vendor.css'))
-        .pipe(gulp.dest('vendor/css'))
-        .pipe(rename('vendor.min.css'))
-        .pipe(cssmin())
-        .pipe(gulp.dest('vendor/css'));
-});
+gulp.task('vendorCSS', vendor('css', vendorCSSFiles, cssmin));
 
 gulp.task('copyFonts', function() {
     gulp.src('bower_components/bootstrap/fonts/*')
