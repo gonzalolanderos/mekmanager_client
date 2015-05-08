@@ -15,11 +15,11 @@ to the next steps.
 
 Once you have the programs you need setup, setting up the MekManager client
 is straightforward and painless, simply run the following commands.
-`
+```
 npm install
 bower install
 gulp init
-`
+```
 
 These commands will do the following:
  1. Install all of the dev dependencies to run gulp. These include programs
@@ -30,5 +30,8 @@ These commands will do the following:
     vendor folder, and generating all of the html files.
 
 Once these steps are done you can check and make sure that the MekManager
-client setup correctly by running `gulp serve`. Which should open the
-index.html page in your system's default browser.
+client setup correctly by running
+```
+gulp serve
+```
+Which should open the index.html page in your system's default browser.
