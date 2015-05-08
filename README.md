@@ -1,6 +1,6 @@
 # MekManager: Client
 
-[![Code Climate](https://img.shields.io/codeclimate/github/MekManager/mekmanager_client.svg?style=flat-square)]()
+[![Code Climate](https://img.shields.io/codeclimate/github/MekManager/mekmanager_client.svg?style=flat-square)](https://codeclimate.com/github/MekManager/mekmanager_client)
 [![David](https://img.shields.io/david/dev/MekManager/mekmanager_client.svg?style=flat-square)]()
 
 [![Gitter](https://img.shields.io/badge/Gitter-Join%20Chat%20%E2%86%92-1dce73.svg?style=flat-square)](https://gitter.im/MekManager/mekmanager_api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
