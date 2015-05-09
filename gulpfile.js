@@ -29,6 +29,12 @@ function vendor(type, files, compressor) {
         .pipe(gulp.dest('vendor/' + type));
 }
 
+function handleError(error, self) {
+    console.log(error);
+    console.log(error.message);
+    self.emit('end');
+}
+
 gulp.task('default', ['watch']);
 
 gulp.task('init', ['vendorJS', 'vendorCSS', 'copyFonts', 'sass', 'jade']);
@@ -44,13 +50,9 @@ gulp.task('serve', function() {
 });
 
 gulp.task('sass', function() {
-    gulp.src('assets/sass/*.sass')
+    return gulp.src('assets/sass/*.sass')
         .pipe(sass({indentedSyntax: true}))
-        .on('error', function(e) {
-            console.log(e);
-            console.log(e.message);
-            this.emit('end');
-        })
+        .on('error', handleError(e, this))
         .pipe(cssmin())
         .pipe(gulp.dest('assets/css'));
 });
@@ -58,11 +60,7 @@ gulp.task('sass', function() {
 gulp.task('jade', function() {
     return gulp.src('jade/*.jade')
         .pipe(jade())
-        .on('error', function(e) {
-            console.log(e);
-            console.log(e.message);
-            this.emit('end');
-        })
+        .on('error', handleError(e, this))
         .pipe(gulp.dest('.'));
 });
 
