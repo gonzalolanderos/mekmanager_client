@@ -37,6 +37,10 @@ vendor/
 
 ### Compiled project files ###
 assets/css/
+assets/js/
+assets/script/*.js
+assets/script/**/*.js
+assets/templates/*.html
 index.html
 
 # emacs

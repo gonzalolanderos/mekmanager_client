@@ -9,9 +9,15 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify'),
     webserver = require('gulp-webserver'),
+    angularFiles = [
+        'assets/script/app.js',
+        'assets/script/routes.js',
+        'assets/script/controllers/*.js'
+    ],
     vendorJSFiles = [
         'bower_components/jquery/dist/jquery.js',
         'bower_components/angular/angular.js',
+        'bower_components/angular-route/angular-route.js',
         'bower_components/bootstrap/dist/js/bootstrap.js'
     ],
     vendorCSSFiles = [
@@ -49,19 +55,50 @@ gulp.task('serve', function() {
         }));
 });
 
+gulp.task('coffee', function() {
+    gulp.src('./**/*.coffee')
+        .pipe(coffee())
+        .on('error', function(e) {
+            handleError(e, this);
+        })
+        .pipe(gulp.dest('.'));
+});
+
 gulp.task('sass', function() {
-    return gulp.src('assets/sass/*.sass')
+    gulp.src('assets/sass/*.sass')
         .pipe(sass({indentedSyntax: true}))
-        .on('error', handleError(e, this))
+        .on('error', function(e) {
+            handleError(e, this);
+        })
         .pipe(cssmin())
         .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task('jade', function() {
-    return gulp.src('jade/*.jade')
+    gulp.src('*.jade')
         .pipe(jade())
-        .on('error', handleError(e, this))
+        .on('error', function(e) {
+            handleError(e, this);
+        })
         .pipe(gulp.dest('.'));
+});
+
+gulp.task('jadeTemplate', function() {
+  gulp.src('./assets/templates/*.jade')
+      .pipe(jade())
+      .on('error', function(e) {
+          handleError(e, this);
+      })
+      .pipe(gulp.dest('./assets/templates'));
+});
+
+gulp.task('js', function() {
+    gulp.src(angularFiles)
+        .pipe(concat('app.js'))
+        .pipe(gulp.dest('assets/js'))
+        .pipe(rename('app.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('assets/js'));
 });
 
 gulp.task('vendorJS', vendor('js', vendorJSFiles, uglify));
@@ -76,6 +113,8 @@ gulp.task('copyFonts', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('jade/*.jade', ['jade']);
+    gulp.watch('*.jade', ['jade']);
+    gulp.watch('./assets/templates/*.jade', ['jadeTemplate']);
     gulp.watch('assets/sass/*.sass', ['sass']);
+    gulp.watch('./**/*.coffee', ['coffee']);
 });

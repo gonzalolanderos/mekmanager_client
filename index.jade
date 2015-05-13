@@ -1,0 +1,34 @@
+doctype html
+html(ng-app="MekManager", lang="en")
+  head
+    title MekManager
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description",
+      content="The unofficial campaign manager for BattleTech, a MechWarrior's best friend."
+    )
+    meta(name="keywords",
+      content="BattleTech, MechWarrior, campaign, RPG, mek, board game, freebirth scum"
+    )
+    link(rel="stylesheet", href="vendor/css/vendor.min.css")
+    link(rel="stylesheet", href="assets/css/main.css")
+  body
+    header.container
+      h1
+        a(ng-href="#/") MekManager
+    main.container
+      hr
+      img(src="/assets/img/atlas_urbie.jpg", alt="Under construction",
+        class="splash")
+      h2 We're currently under construction, check back soon!
+
+      .content(ng-view)
+
+    footer
+      p MekManager is open source, you can view the source for this site&nbsp;
+        a(href="https://github.com/MekManager/mekmanager_client", target="_blank") here
+      p Read more about MekManager&nbsp;
+        a(ng-href="#/about") here
+      p :wq
+    script(src="/vendor/js/vendor.min.js")
+    script(src="/assets/js/app.min.js")
