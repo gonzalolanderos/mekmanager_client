@@ -16,10 +16,10 @@ these projects have through installation instructions, so it would be pointless
 to repeat them here. Once you have those programs installed you can proceed
 to the next steps.
 
-Once you have the programs you need setup, setting up the MekManager client
-is straightforward and painless, simply run the following commands.
-Note: if you've never installed much of anything (or anything at all) with
-npm, it may take a minute or so to install.
+Setting up the MekManager client is straightforward and painless,
+simply run the following commands. Note: if you've never installed
+much of anything (or anything at all) with npm, it may take a
+minute or so to install.
 ```
 npm install
 bower install
