@@ -43,7 +43,8 @@ function handleError(error, self) {
 
 gulp.task('default', ['watch']);
 
-gulp.task('init', ['vendorJS', 'vendorCSS', 'copyFonts', 'sass', 'jade']);
+gulp.task('init', ['vendorJS', 'vendorCSS', 'copyFonts', 'coffee', 'js',
+                   'sass', 'jade', 'jadeTemplate']);
 
 gulp.task('serve', function() {
     gulp.src('.')
