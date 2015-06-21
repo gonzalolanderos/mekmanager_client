@@ -9,6 +9,10 @@ angular.module 'MekManager'
         templateUrl: 'assets/templates/about.html'
         controller: 'AboutController'
       }
+      .when '/privacy', {
+        templateUrl: 'assets/templates/privacy.html'
+        controller: 'PrivacyController'
+      }
       .otherwise {
         redirectTo: '/'
       }

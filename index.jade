@@ -18,9 +18,21 @@ html(ng-app="MekManager", lang="en")
         a(ng-href="#/") MekManager
     main.container
       hr
-      img(src="/assets/img/atlas_urbie.jpg", alt="Under construction",
+      // - Commented out for the holiday!
+      // - img(src="/assets/img/atlas_urbie.jpg", alt="Under construction",
         class="splash")
-      h2 We're currently under construction, check back soon!
+      // - h2 We're currently under construction, check back soon!
+
+      img(src="/assets/img/fathers_day.jpg", alt="Happy Father's Day Dad!",
+          class="fathers-day")
+
+      h2(class="center") Mekmanager is still under construction, but moving along!
+
+      p(class="center").
+        On account of Father's Day, I wanted to put up a special thank you to my Dad,
+        Glenn Hopkins. Many, many years ago he introduced me to BattleTech. This is
+        picture of us at GenCon in '07, here's to many more years of BattleTech!
+      br
 
       .content(ng-view)
 
@@ -29,6 +41,8 @@ html(ng-app="MekManager", lang="en")
         a(href="https://github.com/MekManager/mekmanager_client", target="_blank") here
       p Read more about MekManager&nbsp;
         a(ng-href="#/about") here
+      p Read our privacy policy&nbsp;
+        a(ng-href="#/privacy") here
       p :wq
     script(src="/vendor/js/vendor.min.js")
     script(src="/assets/js/app.min.js")
