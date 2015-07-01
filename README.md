@@ -21,10 +21,17 @@ simply run the following commands. Note: if you've never installed
 much of anything (or anything at all) with npm, it may take a
 minute or so to install.
 ```
-mkdir assets/js
 npm install
 bower install
 gulp init
+```
+
+Note: Some distros may need you to manually create some of the compiled
+directories. If you run ```gulp init``` and you are missing some files run
+the following and then re-run the ```init``` command.
+```
+mkdir assets/js
+mkdir assets/templates
 ```
 
 These commands will do the following:

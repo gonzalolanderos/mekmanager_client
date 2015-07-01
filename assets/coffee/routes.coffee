@@ -1,20 +1,20 @@
-angular.module 'MekManager'
-  .config ['$routeProvider', ($routeProvider) ->
+angular.module('MekManager')
+  .config(['$routeProvider', ($routeProvider) ->
     $routeProvider
-      .when '/', {
+      .when('/', {
         templateUrl: 'assets/templates/home.html'
         controller: 'HomeController'
-      }
-      .when '/about', {
+      })
+      .when('/about', {
         templateUrl: 'assets/templates/about.html'
         controller: 'AboutController'
-      }
-      .when '/privacy', {
+      })
+      .when('/privacy', {
         templateUrl: 'assets/templates/privacy.html'
         controller: 'PrivacyController'
-      }
-      .otherwise {
+      })
+      .otherwise({
         redirectTo: '/'
-      }
+      })
     return
-]
+])

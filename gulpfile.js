@@ -10,9 +10,9 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     webserver = require('gulp-webserver'),
     angularFiles = [
-        'assets/script/app.js',
-        'assets/script/routes.js',
-        'assets/script/controllers/*.js'
+        'assets/js/app.js',
+        'assets/js/routes.js',
+        'assets/js/controllers/*.js'
     ],
     vendorJSFiles = [
         'bower_components/jquery/dist/jquery.js',
@@ -26,6 +26,24 @@ var gulp = require('gulp'),
     ];
 
 // generic function for vendor file compression
+function jadeHandler(dir, outDir) {
+    gulp.src(dir + '*.jade')
+        .pipe(jade())
+        .on('error', function(e) {
+            handleError(e, this);
+        })
+        .pipe(gulp.dest(outDir));
+}
+
+function coffeeHandler(dir) {
+    gulp.src('./assets/coffee/' + dir + '*.coffee')
+        .pipe(coffee())
+        .on('error', function(e) {
+            handleError(e, this);
+        })
+        .pipe(gulp.dest('./assets/js/' + dir));
+}
+
 function vendor(type, files, compressor) {
     gulp.src(files)
         .pipe(concat('vendor.' + type))
@@ -57,12 +75,15 @@ gulp.task('serve', function() {
 });
 
 gulp.task('coffee', function() {
-    gulp.src('./**/*.coffee')
-        .pipe(coffee())
-        .on('error', function(e) {
-            handleError(e, this);
-        })
-        .pipe(gulp.dest('.'));
+    coffeeHandler('');
+    coffeeHandler('controllers/');
+});
+gulp.task('coffee', coffeeHandler(''));
+
+gulp.task('coffeelint', function() {
+    gulp.src('./assets/**/*.coffee')
+        .pipe(coffeelint({optFile: './coffeelint.json'}))
+        .pipe(coffeelint.reporter());
 });
 
 gulp.task('sass', function() {
@@ -75,23 +96,9 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task('jade', function() {
-    gulp.src('*.jade')
-        .pipe(jade())
-        .on('error', function(e) {
-            handleError(e, this);
-        })
-        .pipe(gulp.dest('.'));
-});
+gulp.task('jade', jadeHandler('./', './'));
 
-gulp.task('jadeTemplate', function() {
-  gulp.src('./assets/templates/*.jade')
-      .pipe(jade())
-      .on('error', function(e) {
-          handleError(e, this);
-      })
-      .pipe(gulp.dest('./assets/templates'));
-});
+gulp.task('jadeTemplate', jadeHandler('./assets/jade/', './assets/templates'));
 
 gulp.task('js', function() {
     gulp.src(angularFiles)
@@ -117,5 +124,5 @@ gulp.task('watch', function() {
     gulp.watch('*.jade', ['jade']);
     gulp.watch('./assets/templates/*.jade', ['jadeTemplate']);
     gulp.watch('assets/sass/*.sass', ['sass']);
-    gulp.watch('./**/*.coffee', ['coffee']);
+    gulp.watch('./assets/**/*.coffee', ['coffee', 'coffeelint']);
 });
