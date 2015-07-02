@@ -1,7 +1,3 @@
-p user name {{home.user.user_name}}
-p token {{home.user.token}}
-p logged in? {{home.logged_in}}
-
 div(class="panel panel-default")
   div(class="panel-heading") Log in
   div(class="panel-body")
@@ -24,4 +20,3 @@ div(class="panel panel-default")
               ng-model="home.form.password"
         )
         button(class="btn btn-success", ng-click="home.login()") Login
-        button(class="btn btn-success", ng-click="home.log()") Log
