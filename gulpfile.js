@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     angularFiles = [
         'assets/js/app.js',
         'assets/js/routes.js',
+        'assets/js/factories/*.js',
         'assets/js/controllers/*.js'
     ],
     vendorJSFiles = [
@@ -62,7 +63,7 @@ function handleError(error, self) {
 gulp.task('default', ['watch']);
 
 gulp.task('init', ['vendorJS', 'vendorCSS', 'copyFonts', 'coffee', 'js',
-                   'sass', 'jade', 'jadeTemplate']);
+                   'sass', 'jade']);
 
 gulp.task('serve', function() {
     gulp.src('.')
@@ -77,8 +78,8 @@ gulp.task('serve', function() {
 gulp.task('coffee', function() {
     coffeeHandler('');
     coffeeHandler('controllers/');
+    coffeeHandler('factories/');
 });
-gulp.task('coffee', coffeeHandler(''));
 
 gulp.task('coffeelint', function() {
     gulp.src('./assets/**/*.coffee')
@@ -96,9 +97,10 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task('jade', jadeHandler('./', './'));
-
-gulp.task('jadeTemplate', jadeHandler('./assets/jade/', './assets/templates'));
+gulp.task('jade', function() {
+    jadeHandler('./', './');
+    jadeHandler('./assets/jade/', './assets/templates/');
+});
 
 gulp.task('js', function() {
     gulp.src(angularFiles)
@@ -122,7 +124,8 @@ gulp.task('copyFonts', function() {
 
 gulp.task('watch', function() {
     gulp.watch('*.jade', ['jade']);
-    gulp.watch('./assets/templates/*.jade', ['jadeTemplate']);
+    gulp.watch('assets/jade/*.jade', ['jade']);
     gulp.watch('assets/sass/*.sass', ['sass']);
     gulp.watch('./assets/**/*.coffee', ['coffee', 'coffeelint']);
+    gulp.watch('./assets/js/*.js', ['js']);
 });
