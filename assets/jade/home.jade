@@ -2,6 +2,7 @@ div(class='panel panel-default')
   div(class='panel-heading') Log in
   div(class='panel-body')
     form(class='form', id='signInForm')
+      h4(ng-show='!home.logged_in') If you are a beta tester, login here.
       h3(class='beta', ng-show='home.logged_in') Congratulations! You're a beta tester!
       div(class='form-group', ng-show='!home.logged_in')
         label(for='userName') User Name
