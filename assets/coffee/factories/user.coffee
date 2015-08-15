@@ -1,26 +1,20 @@
-angular.module('MekManager')
-  .factory('User', ['$http', '$window', '$q', ($http, $window, $q) ->
-    data = {}
+angular.module('MekManager').factory('User', [ ->
+    @data = {}
 
     return {
-      get: () ->
-        return data
+      get: => @data
 
-      set_user_name: (name) ->
-        data.user_name = name
+      authorization: => {user: {id: @data.id, token: @data.token}}
+
+      set: (values) =>
+        @data.user_name = values.user_name
+        @data.email = values.email
+        @data.token = values.token
+        @data.id = values.id
+        @data.given_name = values.given_name
+        @data.surname = values.surname
         return
 
-      set: (values) ->
-        data.user_name = values.user_name
-        data.email = values.email
-        data.token = values.token
-        data.id = values.id
-        data.given_name = values.given_name
-        data.surname = values.surname
-        return
-
-      wipe: () ->
-        data = {}
-        return
+      wipe: => @data = {}
     }
 ])

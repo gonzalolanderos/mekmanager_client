@@ -8,18 +8,22 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify'),
+    replace = require('gulp-replace'),
+    config = require('./config.json'),
     webserver = require('gulp-webserver'),
     angularFiles = [
         'assets/js/app.js',
         'assets/js/routes.js',
         'assets/js/factories/*.js',
-        'assets/js/controllers/*.js'
+        'assets/js/controllers/*.js',
+        'assets/js/directives/*.js'
     ],
     vendorJSFiles = [
         'bower_components/jquery/dist/jquery.js',
         'bower_components/angular/angular.js',
         'bower_components/angular-route/angular-route.js',
-        'bower_components/bootstrap/dist/js/bootstrap.js'
+        'bower_components/bootstrap/dist/js/bootstrap.js',
+        'bower_components/lodash/lodash.js'
     ],
     vendorCSSFiles = [
         'bower_components/bootstrap/dist/css/bootstrap.css',
@@ -27,6 +31,12 @@ var gulp = require('gulp'),
     ];
 
 // generic function for vendor file compression
+function handleError(error, self) {
+    console.log(error);
+    console.log(error.message);
+    self.emit('end');
+}
+
 function jadeHandler(dir, outDir) {
     gulp.src(dir + '*.jade')
         .pipe(jade())
@@ -54,11 +64,6 @@ function vendor(type, files, compressor) {
         .pipe(gulp.dest('vendor/' + type));
 }
 
-function handleError(error, self) {
-    console.log(error);
-    console.log(error.message);
-    self.emit('end');
-}
 
 gulp.task('default', ['watch']);
 
@@ -71,6 +76,7 @@ gulp.task('serve', function() {
             fallback: 'index.html',
             livereload: true,
             directoryListening: true,
+            port: 8001,
             open: true
         }));
 });
@@ -79,6 +85,7 @@ gulp.task('coffee', function() {
     coffeeHandler('');
     coffeeHandler('controllers/');
     coffeeHandler('factories/');
+    coffeeHandler('directives/');
 });
 
 gulp.task('coffeelint', function() {
@@ -103,12 +110,16 @@ gulp.task('jade', function() {
 });
 
 gulp.task('js', function() {
+    gulp.src(['./assets/js/factories/api.js'])
+        .pipe(replace('$$url', config.url))
+        .pipe(gulp.dest('./assets/js/factories/'));
+
     gulp.src(angularFiles)
         .pipe(concat('app.js'))
-        .pipe(gulp.dest('assets/js'))
+        .pipe(gulp.dest('assets/src'))
         .pipe(rename('app.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('assets/js'));
+        .pipe(gulp.dest('assets/src'));
 });
 
 gulp.task('vendorJS', vendor('js', vendorJSFiles, uglify));

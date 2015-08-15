@@ -1,17 +1,16 @@
 angular.module('MekManager')
-  .controller('HomeController',
-  ['User', 'API', '$http', (User, API, $http) ->
-    self = this
-    self.logged_in = false
-    self.form = {user_name: '', password: ''}
-    self.user = User.get()
+  .controller('HomeController', ['User', 'API', (User, API) ->
+    @logged_in = false
+    @form = {user_name: '', password: ''}
+    @user = User.get()
 
-    self.login = () ->
-      if(this.name != '' && this.password != '')
-        API.login(self.form).then(
-          (response) ->
-            self.logged_in = true
-            console.log('success')
+    @login = =>
+      if(@form.user_name != '' && @form.password != '')
+        API.sign_in(@form).then(
+          (response) =>
+            @logged_in = true
+            User.set(response.data)
+
           ,(errResponse) ->
             console.log('error')
         )

@@ -31,6 +31,7 @@ directories. If you run ```gulp init``` and you are missing some files run
 the following and then re-run the ```init``` command.
 ```
 mkdir assets/js
+mkdir assets/src
 mkdir assets/templates
 ```
 

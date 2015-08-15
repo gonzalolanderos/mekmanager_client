@@ -38,6 +38,7 @@ vendor/
 ### Compiled project files ###
 assets/css/
 assets/js/
+assets/src/
 assets/script/*.js
 assets/script/**/*.js
 assets/templates/*.html

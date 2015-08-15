@@ -1,22 +1,22 @@
-div(class="panel panel-default")
-  div(class="panel-heading") Log in
-  div(class="panel-body")
-    form(class="form", id="signInForm")
-      h3(class="beta", ng-show="home.logged_in") Congratulations! You're a beta tester!
-      div(class="form-group", ng-show="!home.logged_in")
-        label(for="userName") User Name
-        input(class="form-control input-lg",
-              type="text",
-              placeholder="user name",
-              id="userName",
-              ng-model="home.form.user_name"
+div(class='panel panel-default')
+  div(class='panel-heading') Log in
+  div(class='panel-body')
+    form(class='form', id='signInForm')
+      h3(class='beta', ng-show='home.logged_in') Congratulations! You're a beta tester!
+      div(class='form-group', ng-show='!home.logged_in')
+        label(for='userName') User Name
+        input(class='form-control input-lg',
+              type='text',
+              placeholder='user name',
+              id='userName',
+              ng-model='home.form.user_name'
         )
-      div(class="form-group", ng-show="!home.logged_in")
-        label(for="password") Password
-        input(class="form-control input-lg",
-              type="password",
-              placeholder="password",
-              id="password",
-              ng-model="home.form.password"
+      div(class='form-group', ng-show='!home.logged_in')
+        label(for='password') Password
+        input(class='form-control input-lg',
+              type='password',
+              placeholder='password',
+              id='password',
+              ng-model='home.form.password'
         )
-        button(class="btn btn-success", ng-click="home.login()") Login
+        button(class='btn btn-success', ng-click='home.login()') Login
