@@ -42,6 +42,7 @@ assets/src/
 assets/script/*.js
 assets/script/**/*.js
 assets/templates/*.html
+assets/templates/directives/*.html
 index.html
 
 # emacs
