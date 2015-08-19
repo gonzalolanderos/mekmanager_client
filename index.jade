@@ -13,18 +13,10 @@ html(ng-app='MekManager', lang='en')
     link(rel='stylesheet', href='vendor/css/vendor.min.css')
     link(rel='stylesheet', href='assets/css/main.css')
   body
-    header.container
-      h1
-        a(ng-href='#/') MekManager
-    main.container
-      hr
-      img(src='/assets/img/atlas_urbie.jpg', alt='Under construction',
-        class='splash')
-      h2(class='center') We're currently under construction, check back soon!
+    nav-bar
 
-      p(class='center').
-        The MekManager website is entering a stage of very heavy development. Stay tuned for all
-        the updates coming in the future!
+    main.container
+      br
       br
 
       .content(ng-view)

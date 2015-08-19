@@ -14,9 +14,9 @@ var gulp = require('gulp'),
     angularFiles = [
         'assets/js/app.js',
         'assets/js/routes.js',
+        'assets/js/directives.js',
         'assets/js/factories/*.js',
         'assets/js/controllers/*.js',
-        'assets/js/directives/*.js'
     ],
     vendorJSFiles = [
         'bower_components/jquery/dist/jquery.js',
@@ -107,6 +107,7 @@ gulp.task('sass', function() {
 gulp.task('jade', function() {
     jadeHandler('./', './');
     jadeHandler('./assets/jade/', './assets/templates/');
+    jadeHandler('./assets/jade/directives/', './assets/templates/directives/');
 });
 
 gulp.task('js', function() {
@@ -136,6 +137,7 @@ gulp.task('copyFonts', function() {
 gulp.task('watch', function() {
     gulp.watch('*.jade', ['jade']);
     gulp.watch('assets/jade/*.jade', ['jade']);
+    gulp.watch('assets/jade/directives/*.jade', ['jade']);
     gulp.watch('assets/sass/*.sass', ['sass']);
     gulp.watch('./assets/**/*.coffee', ['coffee', 'coffeelint']);
     gulp.watch('./assets/js/*.js', ['js']);

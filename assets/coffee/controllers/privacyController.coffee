@@ -1,2 +1,1 @@
-angular.module('MekManager')
-  .controller('PrivacyController', () -> )
+angular.module('MekManager').controller('PrivacyController', -> )

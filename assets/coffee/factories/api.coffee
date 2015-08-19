@@ -16,7 +16,7 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
   addUserAutherization = (data) ->
     data.user = User.authorization()
 
-  return {
+  {
     getBookIndex: ->
       $http.get("#{url}/books")
 
