@@ -47,7 +47,7 @@ function jadeHandler(dir, outDir) {
 }
 
 function coffeeHandler(dir) {
-    gulp.src('./assets/coffee/' + dir + '*.coffee')
+    gulp.src('./assets/scripts/' + dir + '*.coffee')
         .pipe(coffee())
         .on('error', function(e) {
             handleError(e, this);
