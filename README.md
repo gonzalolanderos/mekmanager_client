@@ -17,25 +17,12 @@ to repeat them here. Once you have those programs installed you can proceed
 to the next steps.
 
 Setting up the MekManager client is straightforward and painless,
-simply run the following commands. Note: if you've never installed
-much of anything (or anything at all) with npm, it may take a
-minute or so to install.
+simply run the setup script like so:
 ```
-npm install
-bower install
-gulp init
+bash setup.bash
 ```
 
-Note: Some distros may need you to manually create some of the compiled
-directories. If you run ```gulp init``` and you are missing some files run
-the following and then re-run the ```init``` command.
-```
-mkdir assets/js
-mkdir assets/src
-mkdir assets/templates
-```
-
-These commands will do the following:
+This will:
  1. Install all of the dev dependencies to run gulp. These include programs
     to compile sass files, lint JavaScript, etc.
  2. Install the libraries, frameworks and other resources the site itself
