@@ -4,7 +4,7 @@ set -e
 
 if [ -e config.json ]
 then
-    echo 'a config file exists, no need to make on'
+    echo 'a config file exists, no need to make one'
 else
     echo 'making a default config file...'
     echo '{"url": "'"'http://localhost:3000/v1'"'"}' > config.json
