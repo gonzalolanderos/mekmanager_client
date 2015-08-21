@@ -10,10 +10,10 @@ link coming soon.
 
 Above all else please adhere to :
 MINASWAN (Matz Is Nice And So We Are Nice)
-[MINASWAN]: https://en.wikipedia.org/wiki/MINASWAN
+[MINASWAN](https://en.wikipedia.org/wiki/MINASWAN)
 
 Another good resource is the open source code of conduct:
-[Open Source Code of Conduct]: https://thoughtbot.com/open-source-code-of-conduct
+[Open Source Code of Conduct](https://thoughtbot.com/open-source-code-of-conduct)
 
 ## Commit messages:
 
@@ -24,7 +24,7 @@ In Short:
 
 More verbose:
 A link to the classic tpope blog post about good commit messages:
-[link]: tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[link](tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 A lot of people don't realize git commit messages have subject lines and bodies
 very much like an email. Keep the subject of the commit to 50 characters or less
