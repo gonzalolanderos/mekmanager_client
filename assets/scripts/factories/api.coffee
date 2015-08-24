@@ -8,13 +8,16 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
   url = $$url
 
   ###
-  Adds the users authenticating attributes as a named object to the
-  provided data.
+  Creates a new object with proper user authorization for PUT requests.
+  name: The key to name the provided data by.
   data: The data the user object should be added to.
-  return: the contents of the user object added the the provided data.
+  return: An object with user authorization.
   ###
-  addUserAutherization = (data) ->
-    data.user = User.authorization()
+  getAuthorizedObject = (name, data) ->
+    {
+      "#{name}": data,
+      'user': User.authorization()
+    }
 
   {
     getBookIndex: ->
@@ -38,12 +41,14 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateCampaign: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/campaigns/#{id}", data)
+      send = getAuthorizedObject('campaign', data)
+      $http.put("#{url}/campaigns/#{id}",
+                getAuthorizedObject('campaign', data)
+      )
 
 
     deleteCampaign: (id) ->
-      $http.delete("#{url}/campaigns/#{id}", User.authorization())
+      $http.delete("#{url}/campaigns/#{id}", {'user': User.authorization()})
 
 
     getChassisIndex: ->
@@ -87,12 +92,11 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateMission: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/missions/#{id}", data)
+      $http.put("#{url}/missions/#{id}", getAuthorizedObject('mission', data))
 
 
     deleteMission: (id) ->
-      $http.delete("#{url}/missions/#{id}", User.authorization())
+      $http.delete("#{url}/missions/#{id}", {'user': User.authorization()})
 
 
     getObjectiveIndex: (mission_id) ->
@@ -108,12 +112,13 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateObjective: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/objectives/#{id}", data)
+      $http.put("#{url}/objectives/#{id}",
+                getAuthorizedObject('objective', data)
+      )
 
 
     deleteObjective: (id) ->
-      $http.delete("#{url}/objectives/#{id}", User.authorization())
+      $http.delete("#{url}/objectives/#{id}", {'user': User.authorization()})
 
 
     getOperationIndex: (campaign_id) ->
@@ -129,12 +134,13 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateOperation: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/operations/#{id}", data)
+      $http.put("#{url}/operations/#{id}",
+                getAuthorizedObject('operation', data)
+      )
 
 
     deleteOperation: (id) ->
-      $http.delete("#{url}/operations/#{id}", User.authorization())
+      $http.delete("#{url}/operations/#{id}", {'user': User.authorization()})
 
 
     getOptionalBonusIndex: (mission_id) ->
@@ -150,12 +156,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateOptionalBonus: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/optional_bonuses/#{id}", data)
+      $http.put("#{url}/optional_bonuses/#{id}",
+                getAuthorizedObject('optional_bonus', data)
+      )
 
 
     deleteOptionalBonus: (id) ->
-      $http.delete("#{url}/optional_bonuses/#{id}", User.authorization())
+      $http.delete("#{url}/optional_bonuses/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getPilotAttributes: (id) ->
@@ -167,12 +176,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updatePilotAttributes: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/pilot_attributes/#{id}", data)
+      $http.put("#{url}/pilot_attributes/#{id}",
+                getAuthorizedObject('pilot_attribute', data)
+      )
 
 
     deletePilotAttributes: (id) ->
-      $http.delete("#{url}/pilot_attributes/#{id}", User.authorization())
+      $http.delete("#{url}/pilot_attributes/#{id}",
+                    {'user': User.authorization()}
+      )
 
 
     getPilotSkillIndex: (pilot_id) ->
@@ -192,12 +204,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updatePilotSkill: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/pilot_skills/#{id}", data)
+      $http.put("#{url}/pilot_skills/#{id}",
+                getAuthorizedObject('pilot_skill', data)
+      )
 
 
     deletePilotSkill: (id) ->
-      $http.delete("#{url}/pilot_skills/#{id}", User.authorization())
+      $http.delete("#{url}/pilot_skills/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getPilotTraitIndex: (pilot_id) ->
@@ -217,12 +232,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updatePilotTrait: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/pilot_traits/#{id}", data)
+      $http.put("#{url}/pilot_traits/#{id}",
+                getAuthorizedObject('pilot_trait', data)
+      )
 
 
     deletePilotTrait: (id) ->
-      $http.delete("#{url}/pilot_traits/#{id}", User.authorization())
+      $http.delete("#{url}/pilot_traits/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getPilotIndex: (campaign_id) ->
@@ -238,12 +256,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updatePilot: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/pilots/#{id}", data)
+      $http.put("#{url}/pilots/#{id}",
+                getAuthorizedObject('pilot', data)
+      )
 
 
     deletePilot: (id) ->
-      $http.delete("#{url}/pilots/#{id}", User.authorization())
+      $http.delete("#{url}/pilots/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getPilotsForHire: (year) ->
@@ -263,7 +284,9 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     deleteResetKey: (id) ->
-      $http.delete("#{url}/reset_key/#{id}", User.authorization())
+      $http.delete("#{url}/reset_key/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getRollTableIndex: ->
@@ -303,12 +326,13 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateUnit: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/units/#{id}", data)
+      $http.put("#{url}/units/#{id}", getAuthorizedObject('unit', data))
 
 
     deleteUnit: (id) ->
-      $http.delete("#{url}/units/#{id}", User.authorization())
+      $http.delete("#{url}/units/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getUnitsForSale: (year) ->
@@ -328,12 +352,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateUserConfiguration: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/user_configuration/#{id}", data)
+      $http.put("#{url}/user_configuration/#{id}",
+                getAuthorizedObject('user_configuration', data)
+      )
 
 
     deleteUserConfiguration: (id) ->
-      $http.delete("#{url}/user_configuration/#{id}", User.authorization())
+      $http.delete("#{url}/user_configuration/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     sign_up: (data) ->
@@ -345,12 +372,15 @@ angular.module('MekManager').factory('API', ['$http', 'User', ($http, User) ->
 
 
     updateUser: (id, data) ->
-      addUserAutherization(data)
-      $http.put("#{url}/users/#{id}", data)
+      $http.put("#{url}/users/#{id}",
+                addUserAutherization('user', data)
+      )
 
 
     deleteUser: (id) ->
-      $http.delete("#{url}/users/#{id}", User.authorization())
+      $http.delete("#{url}/users/#{id}",
+                   {'user': User.authorization()}
+      )
 
 
     getVariantIndex: ->

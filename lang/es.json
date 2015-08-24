@@ -1,4 +1,19 @@
 {
+  "nav": {
+    "Objectives": "Objetivos",
+    "Hangar": null,
+    "Barracks": "Cuartel",
+    "Market": "Mercado"
+  },
+  "common": {
+    "Apply": "Aplicar",
+    "Chassis": "Chasis",
+    "Condition": "Condición",
+    "Damage": "Dañar",
+    "Price": "Precio",
+    "Repair": "Reparar",
+    "Variant": "Variante"
+  },
   "skills": {
     "Acrobatics": "Acrobacia",
     "Acting": "Acción",

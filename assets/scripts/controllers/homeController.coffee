@@ -4,6 +4,7 @@ angular.module('MekManager')
   (User, API, Chassis, Variant, Unit, Campaign, Pilot) ->
     @form = {user_name: '', password: ''}
     @loggedIn = User.isLoggedIn()
+    @language = User.language()
     @campaign = Campaign.get()
     @user = User.get()
     @units = Unit.get()
@@ -53,6 +54,8 @@ angular.module('MekManager')
         (response) =>
           @pilots = Pilot.load(response.data)
       )
+
+    @resolve = (x) => @language.common[x] || x
 
     return
   ])

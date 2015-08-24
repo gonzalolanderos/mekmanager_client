@@ -31,6 +31,8 @@ angular.module('MekManager').directive('siteFooter', ->
 ).directive('navBar', ->
   {
     restrict: 'E'
+    controller: 'NavController'
+    controllerAs: 'nav'
     templateUrl: "#{directivesDir}/navBar.html"
   }
 )

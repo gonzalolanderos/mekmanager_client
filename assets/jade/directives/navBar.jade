@@ -1,4 +1,10 @@
-nav(class='navbar navbar-inverse')
+nav(class='navbar navbar-inverse' ng-show='!nav.loggedIn()')
+  div(class='container-fluid')
+    div(class='navbar-header')
+      a(class='navbar-brand', ng-href='#/')
+        img(src='/assets/img/starleague_light.png', alt='Main Menu', id='navBrand')
+
+nav(class='navbar navbar-inverse' ng-show='nav.loggedIn()')
   div(class='container-fluid')
     div(class='navbar-header')
       button(type='button', class='navbar-toggle collapsed',
@@ -13,13 +19,13 @@ nav(class='navbar navbar-inverse')
     div(class='collapse navbar-collapse', id='navCollapse')
       ul(class='nav navbar-nav')
         li
-          a(ng-href='#/') Objectives
+          a(ng-href='#/') {{ nav.resolve('Objectives') }}
         li
-          a(ng-href='#/') Hangar
+          a(ng-href='#/hangar') {{ nav.resolve('Hangar') }}
         li
-          a(ng-href='#/') Barracks
+          a(ng-href='#/') {{ nav.resolve('Barracks') }}
         li(class='dropdown')
-          a(class='dropdown-toggle', data-toggle='dropdown', role='button') Market
+          a(class='dropdown-toggle', data-toggle='dropdown', role='button') {{ nav.resolve('Market') }}
             span(class='caret')
           ul(class='dropdown-menu')
             li

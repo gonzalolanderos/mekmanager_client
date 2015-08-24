@@ -1,0 +1,22 @@
+div(id='units')
+  div(class='well')
+    p Current: {{hangar.currentMechInfo()}}
+    button(class='btn btn-large btn-success' ng-click='hangar.repair()') Repair
+    button(class='btn btn-large btn-danger' ng-click='hangar.sell()') Sell
+
+  div(ng-repeat='u in hangar.units')
+    div(class='panel panel-default')
+      div(class='panel-body')
+        div(class='media')
+          div(class='media-left')
+            img(class='media-object' src='/assets/img/{{::u.variantName()}}.gif' ng-click='hangar.setCurrent(u.id)')
+          div(class='media-body')
+            p {{::hangar.resolve('Variant')}}/{{::hangar.resolve('Chassis')}}: {{::u.chassisName()}} {{::u.variantName()}}
+            p {{::hangar.resolve('Price')}}: {{u.currentPrice() | currency}}
+            label(for='{{::u.id + "_bar"}}') {{::hangar.resolve('Condition')}}:
+            div(class='progress')
+              div(class='progress-bar progress-bar-{{u.getStatus()}}'
+                  role='progressbar' aria-valuenow='{{u.condition}}'
+                  aria-valuemin='0' aria-valuemax='100' id='{{::u.id + "_bar"}}'
+                  style='width: {{u.condition}}%; min-width: 10%'
+              ) {{u.condition}}%

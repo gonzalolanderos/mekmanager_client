@@ -1,1 +1,3 @@
-angular.module('MekManager').controller('AboutController', -> )
+angular.module('MekManager').controller('AboutController', ->
+  @greeting = -> 'hey there'
+)

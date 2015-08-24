@@ -1,24 +1,27 @@
 angular.module('MekManager').factory('User', [ ->
   @data = {}
+  @language = {}
   @loggedIn = false
 
   {
     get: => @data
 
-    authorization: => {user: {id: @data.id, token: @data.token}}
+    authorization: => {id: @data.id, token: @data.token}
 
     set: (values) =>
-      @data.user_name = values.user_name
-      @data.email = values.email
-      @data.token = values.token
-      @data.id = values.id
-      @data.given_name = values.given_name
-      @data.surname = values.surname
+      @data = values
       @loggedIn = true
+      if @data.language?
+        $.getJSON("./lang/#{@data.language}.json", (response) =>
+          @language = response
+          console.log(@language)
+        )
       @data
 
     wipe: => @data = {}
 
     isLoggedIn: => @loggedIn
+
+    language: => @language
   }
 ])

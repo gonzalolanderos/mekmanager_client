@@ -1,9 +1,27 @@
 div(class='well')
   h5 Units:
-  div(ng-repeat='u in units')
-    p ID: {{ u.id }}
-    p Variant Name: {{ u.variantName() }}
-    p Chassis Name: {{ u.chassisName() }}
-    p Variant ID: {{ u.variant_id }}
-    p Condition: {{ u.condition }}/100
-    hr
+  div(ng-repeat='u in units' class='unit')
+    div(class='media')
+      div(class='media-left')
+        img(class='media-object' src='/assets/img/{{ u.variantName() }}.gif' alt='placeholder')
+      div(class='media-body')
+        p Variant Name: {{ u.variantName() }}
+        p Chassis Name: {{ u.chassisName() }}
+        p Variant ID: {{ u.variant_id }}
+        p True Value: {{ u.variantPrice() | currency }}
+        p Price: {{ u.currentPrice() | currency }}
+        button(class='btn btn-large btn-danger' ng-click='u.damage()'
+        ) <i class="glyphicon glyphicon-minus"></i> {{ ctl.resolve('Damage') }}
+        button(class='btn btn-large btn-success' ng-click='u.repair()'
+        ) <i class="glyphicon glyphicon-plus"></i> {{ ctl.resolve('Repair') }}
+        br
+        br
+        div(class='progress')
+          div(class='progress-bar progress-bar-{{ u.getStatus() }}', role='progressbar',
+              aria-valuenow='{{ u.condition }}', aria-valuemin='0', aria-valuemax='100',
+              style='width: {{ u.condition }}%; min-width: 10%;'
+          ) {{ u.condition }}%
+        label(for='{{ u.id + "_temp" }}') Set Condition
+        input(class='input-sm' type='text' id='{{ u.id + "_temp" }}' placeholder='condition' ng-model='u.tempCondition')
+        button(class='btn btn-large btn-primary' ng-click='u.setDamage()') Set
+        hr
