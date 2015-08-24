@@ -1,11 +1,11 @@
 div(id='units')
   div(class='well')
-    p Current: {{hangar.currentMechInfo()}}
+    p(ng-show='hangar.currentMechSet()') Current: {{hangar.currentMechId()}}
     button(class='btn btn-large btn-success' ng-click='hangar.repair()') Repair
     button(class='btn btn-large btn-danger' ng-click='hangar.sell()') Sell
 
   div(ng-repeat='u in hangar.units')
-    div(class='panel panel-default')
+    div(class='panel panel-default' ng-class='u.status')
       div(class='panel-body')
         div(class='media')
           div(class='media-left')

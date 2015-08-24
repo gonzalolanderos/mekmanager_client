@@ -6,21 +6,18 @@ angular.module('MekManager')
 
     @loggedIn = -> User.isLoggedIn()
 
-    @currentMechInfo = => _.find(@units, 'id', @currentMech).id
+    @currentMechSet = => @currentMech?
+
+    @currentMechId = => @currentMech.id
 
     @setCurrent = (id) =>
-      console.log('happened')
-      console.log(id)
-      @currentMech = id
-      console.log(@currentMech)
-      console.log(_.find(@units, 'id', @currentMech))
+      @currentMech.status = null if @currentMech?
+      @currentMech = _.find(@units, 'id', id)
+      @currentMech.status = 'active'
 
     @sell = -> console.log('not yet implemented')
 
-    @repair = =>
-      if @currentMech?
-        _.find(@units, 'id', @currentMech).fullRepair()
-        # @units[_.find(@units, 'id', @currentMech)].fullRepair()
+    @repair = => @currentMech.fullRepair() if @currentMech?
 
     @resolve = (x) =>
       if @language.common? && @language.common[x]?
