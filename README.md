@@ -19,6 +19,9 @@ to the next steps.
 Setting up the MekManager client is straightforward and painless,
 simply run the setup script like so:
 ```
+./setup.bash
+
+# or if bash is not your default shell
 bash setup.bash
 ```
 
