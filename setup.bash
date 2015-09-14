@@ -14,8 +14,16 @@ npm install
 bower install
 
 mkdir assets/js
+mkdir assets/js/controllers
+mkdir assets/js/factories
 mkdir assets/src
 mkdir assets/templates
 mkdir assets/templates/directives
 
-gulp init
+gulp vendorJS
+gulp vendorCSS
+gulp copyFonts
+gulp coffee
+gulp js
+gulp sass
+gulp jade

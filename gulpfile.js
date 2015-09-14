@@ -67,9 +67,6 @@ function vendor(type, files, compressor) {
 
 gulp.task('default', ['watch']);
 
-gulp.task('init', ['vendorJS', 'vendorCSS', 'copyFonts', 'coffee', 'js',
-                   'sass', 'jade']);
-
 gulp.task('serve', function() {
     gulp.src('.')
         .pipe(webserver({
