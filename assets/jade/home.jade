@@ -10,3 +10,6 @@ div(class='panel panel-default')
         form-name
         form-password
         button(class='btn btn-success', ng-click='home.login()') Login
+div(class='panel-body')
+  h4(ng-show='!home.loggedIn') Not a member? Sign up!
+  button(class='btn btn-success', ng-href='#/') Sign Up
