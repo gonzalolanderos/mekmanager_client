@@ -1,0 +1,5195 @@
+[
+  {
+    "id": 1,
+    "name": "Agrotera",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 2,
+    "name": "Akuma",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 3,
+    "name": "Albatross",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 4,
+    "name": "Álfar",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 5,
+    "name": "Annihilator",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 6,
+    "name": "Antlion",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 7,
+    "name": "Anubis",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 8,
+    "name": "Anvil",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 9,
+    "name": "Anzu",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 10,
+    "name": "Apollo",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 11,
+    "name": "Aquagladius",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 12,
+    "name": "Araña",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 13,
+    "name": "Arbalest",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  }
+  {
+    "id": 14,
+    "name": "Arbiter",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 15,
+    "name": "Arcas",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 16,
+    "name": "Archangel",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 17,
+    "name": "Archer",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 18,
+    "name": "Arctic Fox",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 19,
+    "name": "Arctic Wolf",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 20,
+    "name": "Arctic Wolf II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 21,
+    "name": "Ares",
+    "clan_name": null,
+    "weight": 135,
+    "crew_number": 3,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 22,
+    "name": "Argus",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 23,
+    "name": "Assassin",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 24,
+    "name": "Atlas",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 25,
+    "name": "Atlas II",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 26,
+    "name": "Atlas III",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 27,
+    "name": "Avalanche",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 28,
+    "name": "Avatar",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 29,
+    "name": "Awesome",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 30,
+    "name": "Axman",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 31,
+    "name": "Baboon",
+    "clan_name": "Howler",
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 32,
+    "name": "Bakeneko",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 33,
+    "name": "Balius",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 34,
+    "name": "Bandersnatch",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 35,
+    "name": "Banshee",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 36,
+    "name": "Barghest",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 37,
+    "name": "BattleAxe",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 38,
+    "name": "Battle Cobra",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 39,
+    "name": "Battle Hawk",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 40,
+    "name": "BattleMaster",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 41,
+    "name": "Bear Cub",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 42,
+    "name": "Behemoth",
+    "clan_name": "Stone Rhino",
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 43,
+    "name": "Bellerophon",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 44,
+    "name": "Beowulf",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 45,
+    "name": "Beowulf IIC",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 46,
+    "name": "Berserker",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 47,
+    "name": "Bishamon",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 48,
+    "name": "Black Hawk",
+    "clan_name": "Nova",
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 49,
+    "name": "Black Hawk",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 50,
+    "name": "Black Hawk-KU",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 51,
+    "name": "Blackjack",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 52,
+    "name": "Blackjack",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 53,
+    "name": "Black Knight",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 54,
+    "name": "Black Lanner",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 55,
+    "name": "Black Watch",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 56,
+    "name": "Blade",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 57,
+    "name": "Blitzkrieg",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 58,
+    "name": "Blood Asp",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 59,
+    "name": "Bloodhound",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 60,
+    "name": "Blood Kite",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 61,
+    "name": "Blood Reaper",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 62,
+    "name": "Blue Flame",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 63,
+    "name": "Bombard",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 64,
+    "name": "Bombardier",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 65,
+    "name": "Bowman",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 66,
+    "name": "Brahma",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 67,
+    "name": "Brigand",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 68,
+    "name": "Bruin",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 69,
+    "name": "Buccaneer",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 70,
+    "name": "Burrock",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 71,
+    "name": "Bushwacker",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 72,
+    "name": "Buster",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 73,
+    "name": "Cadaver",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 74,
+    "name": "Caesar",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 75,
+    "name": "Calliope",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 76,
+    "name": "Canis",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 77,
+    "name": "Carbine",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 78,
+    "name": "Carronade",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 79,
+    "name": "Cataphract",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 80,
+    "name": "Catapult",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 81,
+    "name": "Catapult II",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 82,
+    "name": "Cauldron-Born",
+    "clan_name": "Ebon Jaguar",
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 83,
+    "name": "Cave Lion",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 84,
+    "name": "Celerity",
+    "clan_name": null,
+    "weight": 15,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 85,
+    "name": "Centurion",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 86,
+    "name": "Cephalus",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 87,
+    "name": "Cerberus",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 88,
+    "name": "Cestus",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 89,
+    "name": "Chameleon",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 90,
+    "name": "Champion",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 91,
+    "name": "Charger",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 92,
+    "name": "Chimera",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 93,
+    "name": "Cicada",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 94,
+    "name": "Clint",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 95,
+    "name": "Clint IIC",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 96,
+    "name": "Cobra",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 97,
+    "name": "Colossus",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 98,
+    "name": "Commando",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 99,
+    "name": "Commando IIC",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 100,
+    "name": "Copperhead",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 101,
+    "name": "Corvis",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 102,
+    "name": "Cossack",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 103,
+    "name": "Cougar",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 104,
+    "name": "Coyotl",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 105,
+    "name": "Crab",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 106,
+    "name": "Crimson Hawk",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 107,
+    "name": "Crimson Langur",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 108,
+    "name": "Crockett",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 109,
+    "name": "Cronus",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 110,
+    "name": "Crossbow",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 111,
+    "name": "Crossbow",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 112,
+    "name": "Crosscut",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 113,
+    "name": "Crusader",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 114,
+    "name": "Cudgel",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 115,
+    "name": "Cuirass",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 116,
+    "name": "Cyclops",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 117,
+    "name": "Cygnus",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 118,
+    "name": "Daboku",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 119,
+    "name": "Daedalus",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 120,
+    "name": "Daedalus GXT2",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 121,
+    "name": "Daikyu",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 122,
+    "name": "Daimyo",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 123,
+    "name": "Daishi",
+    "clan_name": "Dire Wolf",
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 124,
+    "name": "Dark Crow",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 125,
+    "name": "Dart",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 126,
+    "name": "Dasher",
+    "clan_name": "Fire Moth",
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 127,
+    "name": "Dasher II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 128,
+    "name": "Defiance",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 129,
+    "name": "Deimos",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 130,
+    "name": "Dervish",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 131,
+    "name": "Deva",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 132,
+    "name": "Devastator",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 133,
+    "name": "Diomede",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 134,
+    "name": "Dola",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 135,
+    "name": "Doloire",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 136,
+    "name": "Dragon",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 137,
+    "name": "Dragon Fire",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 138,
+    "name": "Dragonfly",
+    "clan_name": "Viper",
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 139,
+    "name": "Dragon II",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 140,
+    "name": "Dragoon",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 141,
+    "name": "Duan Gung",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 142,
+    "name": "Eagle",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 143,
+    "name": "Ebony",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 144,
+    "name": "Eidolon",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 145,
+    "name": "Eisenfaust",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 146,
+    "name": "Emperor",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 147,
+    "name": "Enfield",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 148,
+    "name": "Enforcer",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 149,
+    "name": "Enforcer III",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 150,
+    "name": "Excalibur",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 151,
+    "name": "Exhumer",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 152,
+    "name": "Exterminator",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 153,
+    "name": "Eyleuka",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 154,
+    "name": "Eyrie",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 155,
+    "name": "Fafnir",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 156,
+    "name": "Falcon",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 157,
+    "name": "Falconer",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 158,
+    "name": "Falcon Hawk",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 159,
+    "name": "Fennec",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 160,
+    "name": "Fenris",
+    "clan_name": "Ice Ferret",
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 161,
+    "name": "Fireball",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 162,
+    "name": "Firebee",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 163,
+    "name": "Fire Falcon",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 164,
+    "name": "Firefly",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 165,
+    "name": "Fire Scorpion",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 166,
+    "name": "Firestarter",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 167,
+    "name": "Firestarter",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 168,
+    "name": "Flamberge",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 169,
+    "name": "Flashfire",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 170,
+    "name": "Flashman",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 171,
+    "name": "Flea",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 172,
+    "name": "Fwltur",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 173,
+    "name": "Galahad",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 174,
+    "name": "Galahad",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 175,
+    "name": "Galahad",
+    "clan_name": "Glass Spider",
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 176,
+    "name": "Gallant",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 177,
+    "name": "Gallowglas",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 178,
+    "name": "Gambit",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 179,
+    "name": "Garm",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 180,
+    "name": "Gauntlet",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 181,
+    "name": "Ghost",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 182,
+    "name": "Gladiator",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 183,
+    "name": "Gladiator",
+    "clan_name": "Executioner",
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 184,
+    "name": "Goliath",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 185,
+    "name": "Goshawk",
+    "clan_name": "Vapor Eagle",
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 186,
+    "name": "Goshawk II",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 187,
+    "name": "Götterdämmerung",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 188,
+    "name": "Grand Crusader",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 189,
+    "name": "Grand Crusader II",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 190,
+    "name": "Grand Dragon",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 191,
+    "name": "Grand Titan",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 192,
+    "name": "Grasshopper",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 193,
+    "name": "Gravedigger",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 194,
+    "name": "Great Turtle",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 195,
+    "name": "Great Wyrm",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 196,
+    "name": "Grendel",
+    "clan_name": "Mongrel",
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 197,
+    "name": "Griffin",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 198,
+    "name": "Griffin IIC",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 199,
+    "name": "Grigori",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 200,
+    "name": "Grim Reaper",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 201,
+    "name": "Grizzly",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 202,
+    "name": "Guillotine",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 203,
+    "name": "Guillotine",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 204,
+    "name": "Gún",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 205,
+    "name": "Gunslinger",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 206,
+    "name": "Gunsmith",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 207,
+    "name": "Gurkha",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 208,
+    "name": "Gyrfalcon",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 209,
+    "name": "Hachiwara",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 210,
+    "name": "Hammer",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 211,
+    "name": "Hammerhands",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 212,
+    "name": "Hankyu",
+    "clan_name": "Arctic Cheetah",
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 213,
+    "name": "Ha Otoko",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 214,
+    "name": "Hatamoto-Chi",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 215,
+    "name": "Hatamoto-Godai",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 216,
+    "name": "Hatamoto-Hi",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 217,
+    "name": "Hatamoto-Kaeru",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 218,
+    "name": "Hatamoto-Kaze",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 219,
+    "name": "Hatamoto-Ku",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 220,
+    "name": "Hatamoto-Mizo",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 221,
+    "name": "Hatamoto-Suna",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 222,
+    "name": "Hatchetman",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 223,
+    "name": "Hauptmann",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 224,
+    "name": "Havoc",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 225,
+    "name": "HawkWolf",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 226,
+    "name": "Hector",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 227,
+    "name": "Helepolis",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 228,
+    "name": "Helios",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 229,
+    "name": "Hellfire",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 230,
+    "name": "Hellhound",
+    "clan_name": "Conjurer",
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 231,
+    "name": "Hellion",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 232,
+    "name": "Hellspawn",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 233,
+    "name": "Hellstar",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 234,
+    "name": "Hercules",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 235,
+    "name": "Hermes",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 236,
+    "name": "Hermes II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 237,
+    "name": "Highlander",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 238,
+    "name": "Highlander IIC",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 239,
+    "name": "Hitman",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 240,
+    "name": "Hitotsume Kozo",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 241,
+    "name": "Hollander",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 242,
+    "name": "Hollander II",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 243,
+    "name": "Hollander III",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 244,
+    "name": "Hoplite",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 245,
+    "name": "Hornet",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 246,
+    "name": "Hound",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 247,
+    "name": "Hunchback",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 248,
+    "name": "Hunchback IIC",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 249,
+    "name": "Huron Warrior",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 250,
+    "name": "Hussar",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 251,
+    "name": "Icarus",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 252,
+    "name": "Icarus II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 253,
+    "name": "Icestorm",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 254,
+    "name": "Imp",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 255,
+    "name": "Initiate",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 256,
+    "name": "Jackal",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 257,
+    "name": "Jackalope",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 258,
+    "name": "Jackrabbit",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 259,
+    "name": "Jade Hawk",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 260,
+    "name": "JagerMech",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 261,
+    "name": "JagerMech III",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 262,
+    "name": "Jaguar",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 263,
+    "name": "Javelin",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 264,
+    "name": "Jenner",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 265,
+    "name": "Jenner IIC",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 266,
+    "name": "Jinggau",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 267,
+    "name": "Juggernaut",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 268,
+    "name": "Juliano",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 269,
+    "name": "Jupiter",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 270,
+    "name": "Kabuto",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 271,
+    "name": "Karhu",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 272,
+    "name": "Katana",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 273,
+    "name": "Kheper",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 274,
+    "name": "King Crab",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 275,
+    "name": "Kingfisher",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 276,
+    "name": "Kintaro",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 277,
+    "name": "Kodiak",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 278,
+    "name": "Kodiak II",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 279,
+    "name": "Komodo",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 280,
+    "name": "Koschei",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 281,
+    "name": "Koshi",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 282,
+    "name": "Koshi",
+    "clan_name": "Mist Lynx",
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 283,
+    "name": "Koto",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 284,
+    "name": "Kraken",
+    "clan_name": "Bane",
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 285,
+    "name": "Kuma",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 286,
+    "name": "Kyudo",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 287,
+    "name": "Lament",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 288,
+    "name": "Lancelot",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 289,
+    "name": "Lao Hu",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 290,
+    "name": "Legacy",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 291,
+    "name": "Legionnaire",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 292,
+    "name": "Lightray",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 293,
+    "name": "Linebacker",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 294,
+    "name": "Lineholder",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 295,
+    "name": "Lobo",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 296,
+    "name": "Locust",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 297,
+    "name": "Locust IIC",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 298,
+    "name": "Loki",
+    "clan_name": "Hellbringer",
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 299,
+    "name": "Loki Mk II",
+    "clan_name": "Hel",
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 300,
+    "name": "Longbow",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 301,
+    "name": "Longshot",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 302,
+    "name": "Lupus",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 303,
+    "name": "Lu Wei Bing",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 304,
+    "name": "Lynx",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 305,
+    "name": "Mackie",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 306,
+    "name": "Mad Cat",
+    "clan_name": "Timber Wolf",
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 307,
+    "name": "Mad Cat III",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 308,
+    "name": "Mad Cat Mk II",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 309,
+    "name": "Mad Cat Mk IV",
+    "clan_name": "Savage Wolf",
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 310,
+    "name": "Maelstrom",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 311,
+    "name": "Malak",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 312,
+    "name": "Malice",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 313,
+    "name": "Mandrill",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 314,
+    "name": "Mangonel",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 315,
+    "name": "Man O' War",
+    "clan_name": "Gargoyle",
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 316,
+    "name": "Mantis",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 317,
+    "name": "Marauder",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 318,
+    "name": "Marauder II",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 319,
+    "name": "Marauder IIC",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 320,
+    "name": "Marco",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 321,
+    "name": "Marshal",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 322,
+    "name": "Masakari",
+    "clan_name": "War Hawk",
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 323,
+    "name": "Matador",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 324,
+    "name": "Mauler",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 325,
+    "name": "Men Shen",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 326,
+    "name": "Mercury",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 327,
+    "name": "Mercury II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 328,
+    "name": "Merlin",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 329,
+    "name": "Mjolnir",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 330,
+    "name": "Mongoose",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 331,
+    "name": "Mongoose II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 332,
+    "name": "Mongrel",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 333,
+    "name": "Morpheus",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 334,
+    "name": "Morrigan",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 335,
+    "name": "Mortis",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 336,
+    "name": "Naga",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 337,
+    "name": "Naginata",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 338,
+    "name": "Neanderthal",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 339,
+    "name": "Nexus",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 340,
+    "name": "Nexus II",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 341,
+    "name": "Night Gyr",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 342,
+    "name": "Night Hawk",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 343,
+    "name": "Nightsky",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 344,
+    "name": "Night Stalker",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 345,
+    "name": "Nightstar",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 346,
+    "name": "Night Wolf",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 347,
+    "name": "Ninja-To",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 348,
+    "name": "Nobori-nin",
+    "clan_name": "Huntsman",
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 349,
+    "name": "No-Dachi",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 350,
+    "name": "Nova Cat",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 351,
+    "name": "Nyx",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 352,
+    "name": "O-Bakemono",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 353,
+    "name": "Ocelot",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 354,
+    "name": "Omega",
+    "clan_name": null,
+    "weight": 150,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 355,
+    "name": "Omen",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 356,
+    "name": "Onager",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 357,
+    "name": "Onslaught",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 358,
+    "name": "Orion",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 359,
+    "name": "Orion IIC",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 360,
+    "name": "Orochi",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 361,
+    "name": "Osiris",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 362,
+    "name": "Osprey",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 363,
+    "name": "Osteon",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 364,
+    "name": "Ostroc",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 365,
+    "name": "Ostscout",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 366,
+    "name": "Ostsol",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 367,
+    "name": "Ostwar",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 368,
+    "name": "Owens",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 369,
+    "name": "Pack Hunter",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 370,
+    "name": "Pack Hunter II",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 371,
+    "name": "Paladin",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 372,
+    "name": "Pandarus",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 373,
+    "name": "Panther",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 374,
+    "name": "Parash",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 375,
+    "name": "Pariah",
+    "clan_name": "Septicemia",
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 376,
+    "name": "Patriot",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 377,
+    "name": "Patron",
+    "clan_name": null,
+    "weight": 15,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 378,
+    "name": "Peacekeeper",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 379,
+    "name": "Pendragon",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 380,
+    "name": "Penetrator",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 381,
+    "name": "Penthesilea",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 382,
+    "name": "Peregrine",
+    "clan_name": "Horned Owl",
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 383,
+    "name": "Perseus",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 384,
+    "name": "Phantom",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 385,
+    "name": "Phoenix",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 386,
+    "name": "Phoenix  Hawk",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 387,
+    "name": "Phoenix Hawk IIC",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 388,
+    "name": "Phoenix Hawk L",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 389,
+    "name": "Pillager",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 390,
+    "name": "Pinion",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 391,
+    "name": "Piranha",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 392,
+    "name": "Porcupine",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 393,
+    "name": "Posiden",
+    "clan_name": null,
+    "weight": 125,
+    "crew_number": 3,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 394,
+    "name": "Pouncer",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 395,
+    "name": "Powerman",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 396,
+    "name": "Predator",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 397,
+    "name": "Prefect",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 398,
+    "name": "Preta",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 399,
+    "name": "Prey Seeker",
+    "clan_name": null,
+    "weight": 15,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 400,
+    "name": "Pulverizer",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 401,
+    "name": "Puma",
+    "clan_name": "Adder",
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 402,
+    "name": "Quasimodo",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 403,
+    "name": "Quickdraw",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 404,
+    "name": "Rabid Coyote",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 405,
+    "name": "Raider",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 406,
+    "name": "Raider Mk II",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 407,
+    "name": "Raijin",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 408,
+    "name": "Raijin II",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 409,
+    "name": "Rakshasa",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 410,
+    "name": "Rampage",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 411,
+    "name": "Raptor",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 412,
+    "name": "Raptor II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 413,
+    "name": "Raven",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 414,
+    "name": "Raven II",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 415,
+    "name": "Razorback",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 416,
+    "name": "Red Shift",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 417,
+    "name": "Reptar",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 418,
+    "name": "Rifleman",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 419,
+    "name": "Rifleman II",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 420,
+    "name": "Rifleman IIC",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 421,
+    "name": "Rokurokubi",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 422,
+    "name": "Ronin",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 423,
+    "name": "Rook",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 424,
+    "name": "Ryoken",
+    "clan_name": "Stormcrow",
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 425,
+    "name": "Ryoken II",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 426,
+    "name": "Sagittaire",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 427,
+    "name": "Salamander",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 428,
+    "name": "Sarath",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 429,
+    "name": "Sarissa",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 430,
+    "name": "Sasquatch",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 431,
+    "name": "Savage Coyote",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 432,
+    "name": "Scarabus",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 433,
+    "name": "Scarecrow",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 434,
+    "name": "Scorpion",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 435,
+    "name": "Scourge",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 436,
+    "name": "Scylla",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 437,
+    "name": "Sentinel",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 438,
+    "name": "Sentry",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 439,
+    "name": "Seraph",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 440,
+    "name": "Shadow Cat",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 441,
+    "name": "Shadow Cat II",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 442,
+    "name": "Shadow Hawk",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 443,
+    "name": "Shadow Hawk IIC",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 444,
+    "name": "Sha Yu",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 445,
+    "name": "Shen Yi",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 446,
+    "name": "Shiro",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 447,
+    "name": "Shockwave",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 448,
+    "name": "Shogun",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 449,
+    "name": "Shootist",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 450,
+    "name": "Shrike",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 451,
+    "name": "Shugenja",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 452,
+    "name": "Silver Fox",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 453,
+    "name": "Sirocco",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 454,
+    "name": "Sling",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 455,
+    "name": "Snake",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 456,
+    "name": "Snow Fox",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 457,
+    "name": "Solitaire",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 458,
+    "name": "Spartan",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 459,
+    "name": "Spector",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 460,
+    "name": "Sphinx",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 461,
+    "name": "Spider",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 462,
+    "name": "Spirit",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 463,
+    "name": "Stag",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 464,
+    "name": "Stag II",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 465,
+    "name": "Stalker",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 466,
+    "name": "Stalker II",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 467,
+    "name": "Stalking Spider",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 468,
+    "name": "Stalking Spider II",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 469,
+    "name": "Starslayer",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 470,
+    "name": "Stealth",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 471,
+    "name": "Stiletto",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 472,
+    "name": "Stinger",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 473,
+    "name": "Stinger IIC",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 474,
+    "name": "Stooping Hawk",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 475,
+    "name": "Storm Raider",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 476,
+    "name": "Strider",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 477,
+    "name": "Striker",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 478,
+    "name": "Sun Cobra",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 479,
+    "name": "Sunder",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 480,
+    "name": "Super Griffin",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 481,
+    "name": "Supernova",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 482,
+    "name": "Super Wasp",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 483,
+    "name": "Tai-sho",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 484,
+    "name": "Talon",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 485,
+    "name": "Talos",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 486,
+    "name": "Tarantula",
+    "clan_name": null,
+    "weight": 25,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 487,
+    "name": "Targe",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 488,
+    "name": "Tempest",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 489,
+    "name": "Templar",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 490,
+    "name": "Templar III",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 491,
+    "name": "Tenshi",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 492,
+    "name": "Tessen",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 493,
+    "name": "Thanatos",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 494,
+    "name": "Thor",
+    "clan_name": "Summoner",
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 495,
+    "name": "Thor II",
+    "clan_name": "Grand Summoner",
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 496,
+    "name": "Thorn",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 497,
+    "name": "Thresher",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 498,
+    "name": "Thug",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 499,
+    "name": "Thunder",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 500,
+    "name": "Thunderbolt",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 501,
+    "name": "Thunderbolt IIC",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 502,
+    "name": "Thunder Fox",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 503,
+    "name": "Thunder Hawk",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 504,
+    "name": "Thunder Stallion",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 505,
+    "name": "Tian-Zong",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 506,
+    "name": "Tiburon",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 507,
+    "name": "Titan",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 508,
+    "name": "Titan II",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 509,
+    "name": "Ti Ts'ang",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 510,
+    "name": "Tomahawk",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 511,
+    "name": "Tomahawk II",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 512,
+    "name": "Toro",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 513,
+    "name": "Toyama",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 514,
+    "name": "Trebaruna",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 515,
+    "name": "Trebuchet",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 516,
+    "name": "Tsunami",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 517,
+    "name": "Tundra Wolf",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 518,
+    "name": "Turkina",
+    "clan_name": null,
+    "weight": 95,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 519,
+    "name": "Uller",
+    "clan_name": "Kit Fox",
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 520,
+    "name": "Uraeus",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 521,
+    "name": "UrbanMech",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 522,
+    "name": "UrbanMech IIC",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 523,
+    "name": "Ursa",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 524,
+    "name": "Ursus",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 525,
+    "name": "Ursus II",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 526,
+    "name": "Uziel",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 527,
+    "name": "Valiant",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 528,
+    "name": "Valkyrie",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 529,
+    "name": "Vandal",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 530,
+    "name": "Vanquisher",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 531,
+    "name": "Venom",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 532,
+    "name": "Verfolger",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 533,
+    "name": "Victor",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 534,
+    "name": "Viking",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 535,
+    "name": "Viking IIC",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 536,
+    "name": "Vindicator",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 537,
+    "name": "Violator",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 538,
+    "name": "Viper",
+    "clan_name": "Black Python",
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 539,
+    "name": "Vixen",
+    "clan_name": "Incubus",
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 540,
+    "name": "Volkh",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 541,
+    "name": "Von Rohrs",
+    "clan_name": null,
+    "weight": 65,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 542,
+    "name": "Vulcan",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 543,
+    "name": "Vulpes",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 544,
+    "name": "Vulture",
+    "clan_name": "Mad Dog",
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 545,
+    "name": "Vulture Mk III",
+    "clan_name": "Mad Dog Mk III",
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 546,
+    "name": "Vulture Mk IV",
+    "clan_name": "Mad Dog Mk IV",
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 547,
+    "name": "Wakazashi",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 548,
+    "name": "War Dog",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 549,
+    "name": "Warhammer",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 550,
+    "name": "Warhammer IIC",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 551,
+    "name": "Warlord",
+    "clan_name": null,
+    "weight": 85,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 552,
+    "name": "Warwolf",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 553,
+    "name": "Wasp",
+    "clan_name": null,
+    "weight": 20,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 554,
+    "name": "Watchman",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 555,
+    "name": "Wendigo",
+    "clan_name": null,
+    "weight": 50,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 556,
+    "name": "Werewolf",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 557,
+    "name": "White Flame",
+    "clan_name": null,
+    "weight": 70,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 558,
+    "name": "Whitworth",
+    "clan_name": null,
+    "weight": 40,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 559,
+    "name": "Wight",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 560,
+    "name": "Wolfhound",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 561,
+    "name": "Wolfhound IIC",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 562,
+    "name": "Wolftrap",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 563,
+    "name": "Wolverine",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 564,
+    "name": "Wolverine II",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 565,
+    "name": "Woodsman",
+    "clan_name": null,
+    "weight": 75,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 566,
+    "name": "Wraith",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 567,
+    "name": "Wulfen",
+    "clan_name": null,
+    "weight": 30,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 568,
+    "name": "Wyvern",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 569,
+    "name": "Wyvern IIC",
+    "clan_name": null,
+    "weight": 45,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 570,
+    "name": "Xanthos",
+    "clan_name": null,
+    "weight": 100,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 571,
+    "name": "Yao Lien",
+    "clan_name": null,
+    "weight": 55,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 572,
+    "name": "Yeoman",
+    "clan_name": null,
+    "weight": 60,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 573,
+    "name": "Yinghuochong",
+    "clan_name": null,
+    "weight": 35,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 574,
+    "name": "Ymir",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 575,
+    "name": "Yu Huang",
+    "clan_name": null,
+    "weight": 90,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 576,
+    "name": "Zeus",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  },
+  {
+    "id": 577,
+    "name": "Zeus-X",
+    "clan_name": null,
+    "weight": 80,
+    "crew_number": 1,
+    "unit_type": "Mek",
+    "variants": []
+  }
+]
