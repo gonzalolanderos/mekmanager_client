@@ -1,0 +1,68 @@
+{
+  "book": "Total Warfare",
+  "factions": [
+    "Kurita": {
+      "meks": {
+        "techLevels": [
+          "default": {
+            "weightGroups": [
+              "light": [
+                2: [{"chassis": 239, "variant": 1}],
+                3: [{"chassis": 264, "variant": 2}],
+                4: [{"chassis": 368, "variant": 1}],
+                5: [{"chassis": 373, "variant": 3}],
+                6: [{"chassis": 411, "variant": 4}],
+                7: [{"chassis": 411, "variant": 1}],
+                8: [{"chassis": 531, "variant": 1}],
+                9: [{"chassis": 264, "variant": 8}],
+                10: [{"chassis": 461, "variant": 8}],
+                11: [{"chassis": 270, "variant": 1}],
+                12: [{"chassis": 373, "variant": 2}]
+              ],
+              "medium": [
+                2: [{"chassis": 276, "variant": 3}],
+                3: [{"chassis": 47, "variant": 1}],
+                4: [{"chassis": 562, "variant": 1}],
+                5: [{"chassis": 122, "variant": 1}],
+                6: [{"chassis": 52, "variant": 1}],
+                7: [{"chassis": 167, "variant": 1}],
+                8: [{"chassis": 476, "variant": 5}],
+                9: [{"chassis": 279, "variant": 1}],
+                10: [{"chassis": 562, "variant": 1}],
+                11: [{"chassis": 563, "variant": 9}],
+                12: [{"chassis": 304, "variant": 2}]
+              ],
+              "heavy": [
+                2: [{"chassis": 347, "variant": 1}],
+                3: [{"chassis": 137, "variant": 1}],
+                4: [{"chassis": 28, "variant": 2}],
+                5: [{"chassis": 50, "variant": 1}],
+                6: [{"chassis": 121, "variant": 1}],
+                7: [{"chassis": 190, "variant": 11}],
+                8: [{"chassis": 190, "variant": 11}],
+                9: [{"chassis": 310, "variant": 1}],
+                10: [{"chassis": 451, "variant": 1}],
+                11: [{"chassis": 113, "variant": 10}],
+                12: [{"chassis": 349, "variant": 2}]
+              ],
+              "assault": [
+                2: [{"chassis": 483, "variant": 1}],
+                3: [{"chassis": 337, "variant": 1}],
+                4: [{"chassis": 214, "variant": 2}],
+                5: [{"chassis": 479, "variant": 1}],
+                6: [{"chassis": 24, "variant": 7}],
+                7: [{"chassis": 214, "variant": 2}],
+                8: [{"chassis": 324, "variant": 2}],
+                9: [{"chassis": 272, "variant": 1}],
+                10: [{"chassis": 91, "variant": 6}],
+                11: [{"chassis": 479, "variant": 3}],
+                12: [{"chassis": 2, "variant": 3}]
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "Davion": {}
+  ]
+}
