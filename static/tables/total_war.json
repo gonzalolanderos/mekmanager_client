@@ -1,68 +1,427 @@
 {
   "book": "Total Warfare",
   "factions": [
-    "Kurita": {
-      "meks": {
-        "techLevels": [
-          "default": {
-            "weightGroups": [
-              "light": [
-                2: [{"chassis": 239, "variant": 1}],
-                3: [{"chassis": 264, "variant": 2}],
-                4: [{"chassis": 368, "variant": 1}],
-                5: [{"chassis": 373, "variant": 3}],
-                6: [{"chassis": 411, "variant": 4}],
-                7: [{"chassis": 411, "variant": 1}],
-                8: [{"chassis": 531, "variant": 1}],
-                9: [{"chassis": 264, "variant": 8}],
-                10: [{"chassis": 461, "variant": 8}],
-                11: [{"chassis": 270, "variant": 1}],
-                12: [{"chassis": 373, "variant": 2}]
-              ],
-              "medium": [
-                2: [{"chassis": 276, "variant": 3}],
-                3: [{"chassis": 47, "variant": 1}],
-                4: [{"chassis": 562, "variant": 1}],
-                5: [{"chassis": 122, "variant": 1}],
-                6: [{"chassis": 52, "variant": 1}],
-                7: [{"chassis": 167, "variant": 1}],
-                8: [{"chassis": 476, "variant": 5}],
-                9: [{"chassis": 279, "variant": 1}],
-                10: [{"chassis": 562, "variant": 1}],
-                11: [{"chassis": 563, "variant": 9}],
-                12: [{"chassis": 304, "variant": 2}]
-              ],
-              "heavy": [
-                2: [{"chassis": 347, "variant": 1}],
-                3: [{"chassis": 137, "variant": 1}],
-                4: [{"chassis": 28, "variant": 2}],
-                5: [{"chassis": 50, "variant": 1}],
-                6: [{"chassis": 121, "variant": 1}],
-                7: [{"chassis": 190, "variant": 11}],
-                8: [{"chassis": 190, "variant": 11}],
-                9: [{"chassis": 310, "variant": 1}],
-                10: [{"chassis": 451, "variant": 1}],
-                11: [{"chassis": 113, "variant": 10}],
-                12: [{"chassis": 349, "variant": 2}]
-              ],
-              "assault": [
-                2: [{"chassis": 483, "variant": 1}],
-                3: [{"chassis": 337, "variant": 1}],
-                4: [{"chassis": 214, "variant": 2}],
-                5: [{"chassis": 479, "variant": 1}],
-                6: [{"chassis": 24, "variant": 7}],
-                7: [{"chassis": 214, "variant": 2}],
-                8: [{"chassis": 324, "variant": 2}],
-                9: [{"chassis": 272, "variant": 1}],
-                10: [{"chassis": 91, "variant": 6}],
-                11: [{"chassis": 479, "variant": 3}],
-                12: [{"chassis": 2, "variant": 3}]
+    {
+      "name": "Kurita",
+      "unitTypes": [
+        {
+          "type": "mek",
+          "techLevels": [
+            {
+              "level": "default",
+              "weightGroups": [
+                {
+                  "group": "light",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 239, "variant": 1}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 264, "variant": 2}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 368, "variant": 1}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 373, "variant": 3}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 411, "variant": 4}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 411, "variant": 1}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 531, "variant": 1}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 264, "variant": 8}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 461, "variant": 8}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 270, "variant": 1}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 373, "variant": 2}]
+                    }
+                  ]
+                },
+                {
+                  "group": "medium",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 276, "variant": 3}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 47, "variant": 1}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 562, "variant": 1}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 122, "variant": 1}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 52, "variant": 1}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 167, "variant": 1}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 476, "variant": 5}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 279, "variant": 1}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 562, "variant": 1}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 563, "variant": 9}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 304, "variant": 2}]
+                    }
+                  ]
+                },
+                {
+                  "group": "heavy",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 347, "variant": 1}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 137, "variant": 1}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 28, "variant": 2}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 50, "variant": 1}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 121, "variant": 1}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 190, "variant": 11}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 190, "variant": 11}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 310, "variant": 1}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 451, "variant": 1}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 113, "variant": 10}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 349, "variant": 2}]
+                    }
+                  ]
+                },
+                {
+                  "group": "assault",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 483, "variant": 1}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 337, "variant": 1}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 214, "variant": 2}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 479, "variant": 1}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 24, "variant": 7}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 214, "variant": 2}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 324, "variant": 2}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 272, "variant": 1}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 91, "variant": 6}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 479, "variant": 3}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 2, "variant": 3}]
+                    }
+                  ]
+                }
               ]
-            ]
-          }
-        ]
-      }
+            }
+          ]
+        }
+      ]
     },
-    "Davion": {}
+    {
+      "name": "Davion",
+      "unitTypes": [
+        {
+          "type": "mek",
+          "techLevels": [
+            {
+              "level": "default",
+              "weightGroups": [
+                {
+                  "group": "light",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 411, "variant": 1}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 245, "variant": 1}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 161, "variant": 1}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 263, "variant": 3}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 560, "variant": 4}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 263, "variant": 3}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 98, "variant": 6}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 528, "variant": 3}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 125, "variant": 1}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 39, "variant": 1}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 459, "variant": 2}]
+                    }
+                  ]
+                },
+                {
+                  "group": "medium",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 149, "variant": 3}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 167, "variant": 1}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 470, "variant": 1}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 51, "variant": 5}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 558, "variant": 4}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 148, "variant": 2}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 222, "variant": 3}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 85, "variant": 6}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 343, "variant": 1}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 438, "variant": 1}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 476, "variant": 1}]
+                    }
+                  ]
+                },
+                {
+                  "group": "heavy",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 493, "variant": 1}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 366, "variant": 6}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 30, "variant": 1}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 74, "variant": 2}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 380, "variant": 1}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 260, "variant": 4}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 157, "variant": 1}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 261, "variant": 1}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 549, "variant": 16}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 79, "variant": 3}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 418, "variant": 12}]
+                    }
+                  ]
+                },
+                {
+                  "group": "assault",
+                  "rolls": [
+                    {
+                      "roll": 2,
+                      "options": [{"chassis": 132, "variant": 2}]
+                    },
+                    {
+                      "roll": 3,
+                      "options": [{"chassis": 489, "variant": 1}]
+                    },
+                    {
+                      "roll": 4,
+                      "options": [{"chassis": 29, "variant": 1}]
+                    },
+                    {
+                      "roll": 5,
+                      "options": [{"chassis": 205, "variant": 1}]
+                    },
+                    {
+                      "roll": 6,
+                      "options": [{"chassis": 533, "variant": 10}]
+                    },
+                    {
+                      "roll": 7,
+                      "options": [{"chassis": 533, "variant": 10}]
+                    },
+                    {
+                      "roll": 8,
+                      "options": [{"chassis": 24, "variant": 7}]
+                    },
+                    {
+                      "roll": 9,
+                      "options": [{"chassis": 533, "variant": 8}]
+                    },
+                    {
+                      "roll": 10,
+                      "options": [{"chassis": 300, "variant": 5}]
+                    },
+                    {
+                      "roll": 11,
+                      "options": [{"chassis": 35, "variant": 9}]
+                    },
+                    {
+                      "roll": 12,
+                      "options": [{"chassis": 426, "variant": 3}]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
