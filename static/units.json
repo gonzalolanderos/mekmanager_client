@@ -32861,7 +32861,7 @@
       },
       {
         "id": 3,
-        "name": "SR1-OB",
+        "name": "SD1-OB",
         "battle_value": 1597,
         "production_year": 3056,
         "price": "34511125.0",
@@ -32883,7 +32883,7 @@
       },
       {
         "id": 5,
-        "name": "SR1-OD",
+        "name": "SD1-OD",
         "battle_value": 1947,
         "production_year": 3063,
         "price": "28590237.0",
@@ -32894,7 +32894,7 @@
       },
       {
         "id": 6,
-        "name": "SR1-OE",
+        "name": "SD1-OE",
         "battle_value": 1876,
         "production_year": 3069,
         "price": "29041500.0",
@@ -32905,7 +32905,7 @@
       },
       {
         "id": 7,
-        "name": "SR1-OF",
+        "name": "SD1-OF",
         "battle_value": 1854,
         "production_year": 3130,
         "price": "29193500.0",
@@ -32916,7 +32916,7 @@
       },
       {
         "id": 8,
-        "name": "SR1-OG",
+        "name": "SD1-OG",
         "battle_value": 2594,
         "production_year": 3130,
         "price": "31832125.0",
@@ -32927,7 +32927,7 @@
       },
       {
         "id": 9,
-        "name": "SR1-OR",
+        "name": "SD1-OR",
         "battle_value": 2462,
         "production_year": 3059,
         "price": "29156687.0",
@@ -32949,7 +32949,7 @@
       },
       {
         "id": 11,
-        "name": "SR1-O (Samual)",
+        "name": "SD1-O (Samual)",
         "battle_value": 1593,
         "production_year": 3066,
         "price": "27762562.0",
