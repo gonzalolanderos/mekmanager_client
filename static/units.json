@@ -17109,6 +17109,39 @@
         "is_cannon": true,
         "tech_base": "IS",
         "unit_role": null
+      },
+      {
+        "id": 4,
+        "name": "HNT-171",
+        "battle_value": 511,
+        "production_year": 3052,
+        "price": 1441600.0,
+        "tech_level": 2,
+        "is_cannon": true,
+        "tech_base": "IS",
+        "unit_role": null
+      },
+      {
+        "id": 5,
+        "name": "HNT-181",
+        "battle_value": 380,
+        "production_year": 3130,
+        "price": 1993900.0,
+        "tech_level": 4,
+        "is_cannon": true,
+        "tech_base": "IS",
+        "unit_role": null
+      },
+      {
+        "id":  6,
+        "name": "HNT-182",
+        "battle_value": 505,
+        "production_year": 3130,
+        "price": 2046400.0,
+        "tech_level": 4,
+        "is_cannon": true,
+        "tech_base": "IS",
+        "unit_role": null
       }
     ]
   },
