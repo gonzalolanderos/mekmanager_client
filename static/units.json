@@ -1896,7 +1896,7 @@
     "variants": [
       {
         "id": 1,
-        "name": "AV1-0",
+        "name": "AV1-O",
         "battle_value": 1395,
         "production_year": 3056,
         "price": "17540105.0",
@@ -1907,7 +1907,7 @@
       },
       {
         "id": 2,
-        "name": "AV1-0A",
+        "name": "AV1-OA",
         "battle_value": 1481,
         "production_year": 3056,
         "price": "17168230.0",
@@ -1918,7 +1918,7 @@
       },
       {
         "id": 3,
-        "name": "AV1-0B",
+        "name": "AV1-OB",
         "battle_value": 1496,
         "production_year": 3056,
         "price": "17902417.0",
@@ -1929,7 +1929,7 @@
       },
       {
         "id": 4,
-        "name": "AV1-0C",
+        "name": "AV1-OC",
         "battle_value": 1406,
         "production_year": 3056,
         "price": "19712917.0",
@@ -1940,7 +1940,7 @@
       },
       {
         "id": 5,
-        "name": "AV1-0D",
+        "name": "AV1-OD",
         "battle_value": 1475,
         "production_year": 3060,
         "price": "17187355.0",
@@ -1951,7 +1951,7 @@
       },
       {
         "id": 6,
-        "name": "AV1-0E",
+        "name": "AV1-OE",
         "battle_value": 1563,
         "production_year": 3062,
         "price": "18763042.0",
@@ -1962,7 +1962,7 @@
       },
       {
         "id": 7,
-        "name": "AV1-0F",
+        "name": "AV1-OF",
         "battle_value": 1667,
         "production_year": 3064,
         "price": "17785542.0",
@@ -1973,7 +1973,7 @@
       },
       {
         "id": 8,
-        "name": "AV1-0G",
+        "name": "AV1-OG",
         "battle_value": 1775,
         "production_year": 3056,
         "price": "16548792.0",
@@ -1984,7 +1984,7 @@
       },
       {
         "id": 9,
-        "name": "AV1-0H",
+        "name": "AV1-OH",
         "battle_value": 1604,
         "production_year": 3069,
         "price": "17228792.0",
@@ -1995,7 +1995,7 @@
       },
       {
         "id": 10,
-        "name": "AV1-0I",
+        "name": "AV1-OI",
         "battle_value": 1606,
         "production_year": 3078,
         "price": "17341417.0",
@@ -2006,7 +2006,7 @@
       },
       {
         "id": 11,
-        "name": "AV1-0R",
+        "name": "AV1-OR",
         "battle_value": 1833,
         "production_year": 3059,
         "price": "17287230.0",
@@ -2017,7 +2017,7 @@
       },
       {
         "id": 12,
-        "name": "AV1-0U",
+        "name": "AV1-OU",
         "battle_value": 1359,
         "production_year": 3077,
         "price": "20543792.0",
@@ -2028,7 +2028,7 @@
       },
       {
         "id": 13,
-        "name": "AV1-0J",
+        "name": "AV1-OJ",
         "battle_value": 2223,
         "production_year": 3130,
         "price": "17738792.0",
@@ -3766,7 +3766,7 @@
     "variants": [
       {
         "id": 1,
-        "name": "BHKU-0",
+        "name": "BHKU-O",
         "battle_value": 1731,
         "production_year": 3055,
         "price": "14595000.0",
@@ -3777,7 +3777,7 @@
       },
       {
         "id": 2,
-        "name": "BHKU-0A",
+        "name": "BHKU-OA",
         "battle_value": 1770,
         "production_year": 3055,
         "price": "15162000.0",
@@ -3788,7 +3788,7 @@
       },
       {
         "id": 3,
-        "name": "BHKU-0B",
+        "name": "BHKU-OB",
         "battle_value": 1303,
         "production_year": 3055,
         "price": "14328000.0",
@@ -3799,7 +3799,7 @@
       },
       {
         "id": 4,
-        "name": "BHKU-0C",
+        "name": "BHKU-OC",
         "battle_value": 1597,
         "production_year": 3055,
         "price": "14280000.0",
@@ -3810,7 +3810,7 @@
       },
       {
         "id": 5,
-        "name": "BHKU-0D",
+        "name": "BHKU-OD",
         "battle_value": 1539,
         "production_year": 3055,
         "price": "14586000.0",
@@ -3821,7 +3821,7 @@
       },
       {
         "id": 6,
-        "name": "BHKU-0E",
+        "name": "BHKU-OE",
         "battle_value": 1982,
         "production_year": 3063,
         "price": "15546000.0",
@@ -3832,7 +3832,7 @@
       },
       {
         "id": 7,
-        "name": "BHKU-0F",
+        "name": "BHKU-OF",
         "battle_value": 1759,
         "production_year": 3069,
         "price": "15154000.0",
@@ -3843,7 +3843,7 @@
       },
       {
         "id": 8,
-        "name": "BHKU-0R",
+        "name": "BHKU-OR",
         "battle_value": 2193,
         "production_year": 3059,
         "price": "15562000.0",
@@ -3854,7 +3854,7 @@
       },
       {
         "id": 9,
-        "name": "BHKU-0X",
+        "name": "BHKU-OX",
         "battle_value": 1905,
         "production_year": 3058,
         "price": "15386000.0",
@@ -3865,7 +3865,7 @@
       },
       {
         "id": 10,
-        "name": "BHKU-0U",
+        "name": "BHKU-OU",
         "battle_value": 1687,
         "production_year": 3077,
         "price": "14795600.0",
@@ -3876,7 +3876,7 @@
       },
       {
         "id": 11,
-        "name": "BHKU-0G",
+        "name": "BHKU-OG",
         "battle_value": 1719,
         "production_year": 3130,
         "price": "17420000.0",
@@ -3887,7 +3887,7 @@
       },
       {
         "id": 12,
-        "name": "BHKU-0 (Albert)",
+        "name": "BHKU-O (Albert)",
         "battle_value": 2377,
         "production_year": 3055,
         "price": "17849200.0",
@@ -4006,7 +4006,7 @@
     "variants": [
       {
         "id": 1,
-        "name": "BJ2-0",
+        "name": "BJ2-O",
         "battle_value": 1201,
         "production_year": 3057,
         "price": "8915937.0",
@@ -4017,7 +4017,7 @@
       },
       {
         "id": 2,
-        "name": "BJ2-0A",
+        "name": "BJ2-OA",
         "battle_value": 1318,
         "production_year": 3057,
         "price": "9127344.0",
@@ -4028,7 +4028,7 @@
       },
       {
         "id": 3,
-        "name": "BJ2-0B",
+        "name": "BJ2-OB",
         "battle_value": 1323,
         "production_year": 3057,
         "price": "9521094.0",
@@ -4039,7 +4039,7 @@
       },
       {
         "id": 4,
-        "name": "BJ2-0C",
+        "name": "BJ2-OC",
         "battle_value": 1189,
         "production_year": 3057,
         "price": "9524844.0",
@@ -4050,7 +4050,7 @@
       },
       {
         "id": 5,
-        "name": "BJ2-0D",
+        "name": "BJ2-OD",
         "battle_value": 1375,
         "production_year": 3057,
         "price": "8973594.0",
@@ -4061,7 +4061,7 @@
       },
       {
         "id": 6,
-        "name": "BJ2-0E",
+        "name": "BJ2-OE",
         "battle_value": 1260,
         "production_year": 3059,
         "price": "9080469.0",
@@ -4072,7 +4072,7 @@
       },
       {
         "id": 7,
-        "name": "BJ2-0F",
+        "name": "BJ2-OF",
         "battle_value": 1405,
         "production_year": 3061,
         "price": "9344844.0",
@@ -4083,7 +4083,7 @@
       },
       {
         "id": 8,
-        "name": "BJ2-0R",
+        "name": "BJ2-OR",
         "battle_value": 2010,
         "production_year": 3059,
         "price": "9117969.0",
@@ -4094,7 +4094,7 @@
       },
       {
         "id": 9,
-        "name": "BJ2-0X",
+        "name": "BJ2-OX",
         "battle_value": 1320,
         "production_year": 3074,
         "price": "10505000.0",
@@ -4105,7 +4105,7 @@
       },
       {
         "id": 10,
-        "name": "BJ2-0U",
+        "name": "BJ2-OU",
         "battle_value": 1223,
         "production_year": 3077,
         "price": "10008594.0",
@@ -4116,7 +4116,7 @@
       },
       {
         "id": 11,
-        "name": "BJ2-0G",
+        "name": "BJ2-OG",
         "battle_value": 1445,
         "production_year": 3130,
         "price": "8984375.0",
@@ -6217,7 +6217,7 @@
       },
       {
         "id": 13,
-        "name": "CN11-0",
+        "name": "CN11-O",
         "battle_value": 1236,
         "production_year": 3111,
         "price": "13044063.0",
@@ -6228,7 +6228,7 @@
       },
       {
         "id": 14,
-        "name": "CN11-0A",
+        "name": "CN11-OA",
         "battle_value": 1398,
         "production_year": 3111,
         "price": "12702813.0",
@@ -6239,7 +6239,7 @@
       },
       {
         "id": 15,
-        "name": "CN11-0B",
+        "name": "CN11-OB",
         "battle_value": 1430,
         "production_year": 3111,
         "price": "12843438.0",
@@ -6250,7 +6250,7 @@
       },
       {
         "id": 16,
-        "name": "CN11-0C",
+        "name": "CN11-OC",
         "battle_value": 1628,
         "production_year": 3111,
         "price": "14146563.0",
@@ -6261,7 +6261,7 @@
       },
       {
         "id": 17,
-        "name": "CN11-0D",
+        "name": "CN11-OD",
         "battle_value": 1177,
         "production_year": 3111,
         "price": "13202969.0",
@@ -6272,7 +6272,7 @@
       },
       {
         "id": 18,
-        "name": "CN11-0E",
+        "name": "CN11-OE",
         "battle_value": 1515,
         "production_year": 3111,
         "price": "14287188.0",
@@ -12185,7 +12185,7 @@
     "variants": [
       {
         "id": 1,
-        "name": "FS9-0",
+        "name": "FS9-O",
         "battle_value": 1144,
         "production_year": 3057,
         "price": "10146375.0",
@@ -12196,7 +12196,7 @@
       },
       {
         "id": 2,
-        "name": "FS9-0A",
+        "name": "FS9-OA",
         "battle_value": 976,
         "production_year": 3057,
         "price": "10193500.0",
@@ -12207,7 +12207,7 @@
       },
       {
         "id": 3,
-        "name": "FS9-0B",
+        "name": "FS9-OB",
         "battle_value": 1070,
         "production_year": 3057,
         "price": "10493016.0",
@@ -12218,7 +12218,7 @@
       },
       {
         "id": 4,
-        "name": "FS9-0C",
+        "name": "FS9-OC",
         "battle_value": 1006,
         "production_year": 3057,
         "price": "10493016.0",
@@ -12229,7 +12229,7 @@
       },
       {
         "id": 5,
-        "name": "FS9-0D",
+        "name": "FS9-OD",
         "battle_value": 1322,
         "production_year": 3057,
         "price": "10930735.0",
@@ -12240,7 +12240,7 @@
       },
       {
         "id": 6,
-        "name": "FS9-0E",
+        "name": "FS9-OE",
         "battle_value": 998,
         "production_year": 3058,
         "price": "9819400.0",
@@ -12251,7 +12251,7 @@
       },
       {
         "id": 7,
-        "name": "FS9-0F",
+        "name": "FS9-OF",
         "battle_value": 1446,
         "production_year": 3060,
         "price": "10440453.0",
@@ -12262,7 +12262,7 @@
       },
       {
         "id": 8,
-        "name": "FS9-0G",
+        "name": "FS9-OG",
         "battle_value": 1063,
         "production_year": 3063,
         "price": "10194860.0",
@@ -12273,7 +12273,7 @@
       },
       {
         "id": 9,
-        "name": "FS9-0H",
+        "name": "FS9-OH",
         "battle_value": 1119,
         "production_year": 3069,
         "price": "10834219.0",
@@ -12284,7 +12284,7 @@
       },
       {
         "id": 10,
-        "name": "FS9-0R",
+        "name": "FS9-OR",
         "battle_value": 1713,
         "production_year": 3059,
         "price": "10699188.0",
@@ -12295,7 +12295,7 @@
       },
       {
         "id": 11,
-        "name": "FS9-0X",
+        "name": "FS9-OX",
         "battle_value": 1190,
         "production_year": 3059,
         "price": "12283313.0",
@@ -12306,7 +12306,7 @@
       },
       {
         "id": 12,
-        "name": "FS9-0U",
+        "name": "FS9-OU",
         "battle_value": 1120,
         "production_year": 3077,
         "price": "9989775.0",
@@ -15726,7 +15726,7 @@
     "variants": [
       {
         "id": 1,
-        "name": "HA1-0",
+        "name": "HA1-O",
         "battle_value": 2157,
         "production_year": 3059,
         "price": "12904735.0",
@@ -15737,7 +15737,7 @@
       },
       {
         "id": 2,
-        "name": "HA1-0A",
+        "name": "HA1-OA",
         "battle_value": 2311,
         "production_year": 3060,
         "price": "12478051.0",
@@ -15748,7 +15748,7 @@
       },
       {
         "id": 3,
-        "name": "HA1-0B",
+        "name": "HA1-OB",
         "battle_value": 2208,
         "production_year": 3060,
         "price": "12454407.0",
@@ -15759,7 +15759,7 @@
       },
       {
         "id": 4,
-        "name": "HA1-0C",
+        "name": "HA1-OC",
         "battle_value": 2322,
         "production_year": 3061,
         "price": "12863785.0",
@@ -15770,7 +15770,7 @@
       },
       {
         "id": 5,
-        "name": "HA1-0D",
+        "name": "HA1-OD",
         "battle_value": 2359,
         "production_year": 3070,
         "price": "14941510.0",
@@ -15781,7 +15781,7 @@
       },
       {
         "id": 6,
-        "name": "HA1-0E",
+        "name": "HA1-OE",
         "battle_value": 2298,
         "production_year": 3073,
         "price": "12079032.0",
@@ -15792,7 +15792,7 @@
       },
       {
         "id": 7,
-        "name": "HA1-0F",
+        "name": "HA1-OF",
         "battle_value": 2484,
         "production_year": 3130,
         "price": "14733469.0",
@@ -15803,7 +15803,7 @@
       },
       {
         "id": 8,
-        "name": "HA1-0M",
+        "name": "HA1-OM",
         "battle_value": 2214,
         "production_year": 3130,
         "price": "18984469.0",
@@ -15814,7 +15814,7 @@
       },
       {
         "id": 9,
-        "name": "HA1-0T",
+        "name": "HA1-OT",
         "battle_value": 3031,
         "production_year": 3130,
         "price": "16210473.0",
