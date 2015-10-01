@@ -1,0 +1,546 @@
+[
+  {
+    "id": 1,
+    "name": "Acrobatics",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "RFL"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Acting",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "CHA"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Administration",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Animal Handling",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "WIL"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Appraisal",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Archery",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Art",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Art",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "DEX",
+      "INT"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Artillery",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Career",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Climbing",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Communications",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Computers",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Computers",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "DEX"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cryptography",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Demolitions",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "DEX",
+      "INT"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Disguise",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "CHA"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Driving",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "RFL",
+      "DEX"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Escape Artist",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "STR",
+      "DEX"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Forgery",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "DEX",
+      "INT"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Gunnery",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "RFL",
+      "DEX"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Interest",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Interest",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Interrogation",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "WIL",
+      "CHA"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Investigation",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Language",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT",
+      "CHA"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Leadership",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "WIL",
+      "CHA"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Martial Arts",
+    "target_number": 7,
+    "complexity": "SA",
+    "linked_attributes": [
+      "RFL"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Martial Arts",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "RFL",
+      "DEX"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "MedTech",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Melee Weapons",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Melee Weapons",
+    "target_number": 8,
+    "complexity": "SB",
+    "linked_attributes": [
+      "RFL",
+      "DEX"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Navigation",
+    "target_number": 7,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Negotiation",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "CHA"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Perception",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "INT"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Piloting",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "RFL",
+      "DEX"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Prestidigitation",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Prestidigitation",
+    "target_number": 8,
+    "complexity": "SB",
+    "linked_attributes": [
+      "RFL",
+      "DEX"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Protocol",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "WIL",
+      "CHA"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Running",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "RFL"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Science",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Security Systems",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "DEX",
+      "INT"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Sensor Operations",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Small Arms",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Stealth",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "RFL",
+      "INT"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Strategy",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Streetwise",
+    "target_number": 8,
+    "complexity": "CB",
+    "linked_attributes": [
+      "CHA"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Support Weapons",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Surgery",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "DEX",
+      "INT"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Survival",
+    "target_number": 7,
+    "complexity": "CA",
+    "linked_attributes": [
+      "BOD",
+      "INT"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Swimming",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "STR"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Tactics",
+    "target_number": 9,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT",
+      "WIL"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Technician",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "DEX",
+      "INT"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Thrown Weapons",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "DEX"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Tracking",
+    "target_number": 8,
+    "complexity": "SA",
+    "linked_attributes": [
+      "INT",
+      "CHA"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Training",
+    "target_number": 9,
+    "complexity": "CA",
+    "linked_attributes": [
+      "INT",
+      "CHA"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Zero-G Operations",
+    "target_number": 7,
+    "complexity": "SB",
+    "linked_attributes": [
+      "RFL"
+    ]
+  }
+]

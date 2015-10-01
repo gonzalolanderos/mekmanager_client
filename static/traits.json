@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1,
+    "name": "Alternate ID",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 2,
+    "name": "Ambidextrous",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 3,
+    "name": "Animal Empathy",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 4,
+    "name": "Attractive",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 5,
+    "name": "Citizen",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 6,
+    "name": "Trueborn",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 7,
+    "name": "Combat Sense",
+    "max_tp": 4,
+    "min_tp": 4
+  },
+  {
+    "id": 8,
+    "name": "Connections",
+    "max_tp": 10,
+    "min_tp": 1
+  },
+  {
+    "id": 9,
+    "name": "Exceptional Attribute",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 10,
+    "name": "Fast Learner",
+    "max_tp": 3,
+    "min_tp": 3
+  },
+  {
+    "id": 11,
+    "name": "Fit",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 12,
+    "name": "G-Tolerance",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 13,
+    "name": "Good Hearing",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 14,
+    "name": "Good Vision",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 15,
+    "name": "Gregarious",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 16,
+    "name": "Implant",
+    "max_tp": 6,
+    "min_tp": 1
+  },
+  {
+    "id": 17,
+    "name": "Prosthetic",
+    "max_tp": 6,
+    "min_tp": 1
+  },
+  {
+    "id": 18,
+    "name": "Natural Aptitude",
+    "max_tp": 5,
+    "min_tp": 3
+  },
+  {
+    "id": 19,
+    "name": "Pain Resistance",
+    "max_tp": 3,
+    "min_tp": 3
+  },
+  {
+    "id": 20,
+    "name": "Patient",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 21,
+    "name": "Phenotype",
+    "max_tp": 0,
+    "min_tp": 0
+  },
+  {
+    "id": 22,
+    "name": "Poison Resistance",
+    "max_tp": 2,
+    "min_tp": 2
+  },
+  {
+    "id": 23,
+    "name": "Property",
+    "max_tp": 10,
+    "min_tp": 1
+  },
+  {
+    "id": 24,
+    "name": "Rank",
+    "max_tp": 15,
+    "min_tp": 1
+  },
+  {
+    "id": 25,
+    "name": "Sixth Sense",
+    "max_tp": 4,
+    "min_tp": 4
+  },
+  {
+    "id": 26,
+    "name": "Tech Empathy",
+    "max_tp": 3,
+    "min_tp": 3
+  },
+  {
+    "id": 27,
+    "name": "Thick-Skinned",
+    "max_tp": 1,
+    "min_tp": 1
+  },
+  {
+    "id": 28,
+    "name": "Title",
+    "max_tp": 10,
+    "min_tp": 3
+  },
+  {
+    "id": 29,
+    "name": "Bloodname",
+    "max_tp": 10,
+    "min_tp": 3
+  },
+  {
+    "id": 30,
+    "name": "Toughness",
+    "max_tp": 3,
+    "min_tp": 3
+  },
+  {
+    "id": 31,
+    "name": "Animal Antipathy",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 32,
+    "name": "Bloodmark",
+    "max_tp": -1,
+    "min_tp": -5
+  },
+  {
+    "id": 33,
+    "name": "Combat Paralysis",
+    "max_tp": -4,
+    "min_tp": -4
+  },
+  {
+    "id": 34,
+    "name": "Compulsion",
+    "max_tp": -1,
+    "min_tp": -5
+  },
+  {
+    "id": 35,
+    "name": "Dark Secret",
+    "max_tp": -1,
+    "min_tp": -4
+  },
+  {
+    "id": 36,
+    "name": "Dependent",
+    "max_tp": -1,
+    "min_tp": -2
+  },
+  {
+    "id": 37,
+    "name": "Enemy",
+    "max_tp": -1,
+    "min_tp": -10
+  },
+  {
+    "id": 38,
+    "name": "Glass Jaw",
+    "max_tp": -3,
+    "min_tp": -3
+  },
+  {
+    "id": 39,
+    "name": "Gremlins",
+    "max_tp": -3,
+    "min_tp": -3
+  },
+  {
+    "id": 40,
+    "name": "Handicap",
+    "max_tp": -1,
+    "min_tp": -5
+  },
+  {
+    "id": 41,
+    "name": "Illiterate",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 42,
+    "name": "Impatient",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 43,
+    "name": "In For Life",
+    "max_tp": -3,
+    "min_tp": -3
+  },
+  {
+    "id": 44,
+    "name": "Introvert",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 45,
+    "name": "Lost Limb",
+    "max_tp": -1,
+    "min_tp": -5
+  },
+  {
+    "id": 46,
+    "name": "Poor Hearing",
+    "max_tp": -1,
+    "min_tp": -5
+  },
+  {
+    "id": 47,
+    "name": "Poor Vision",
+    "max_tp": -2,
+    "min_tp": -9
+  },
+  {
+    "id": 48,
+    "name": "Slow Learner",
+    "max_tp": -3,
+    "min_tp": -3
+  },
+  {
+    "id": 49,
+    "name": "Thin-Skinned",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 50,
+    "name": "TDS",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 51,
+    "name": "Unattractive",
+    "max_tp": -1,
+    "min_tp": -1
+  },
+  {
+    "id": 52,
+    "name": "Unlucky",
+    "max_tp": -2,
+    "min_tp": -10
+  },
+  {
+    "id": 53,
+    "name": "Equipped",
+    "max_tp": 8,
+    "min_tp": -1
+  },
+  {
+    "id": 54,
+    "name": "Extra Income",
+    "max_tp": 10,
+    "min_tp": -10
+  },
+  {
+    "id": 55,
+    "name": "Reputation",
+    "max_tp": 5,
+    "min_tp": -5
+  },
+  {
+    "id": 56,
+    "name": "Wealth",
+    "max_tp": 10,
+    "min_tp": -1
+  },
+  {
+    "id": 57,
+    "name": "Custom Vehicle",
+    "max_tp": 6,
+    "min_tp": 1
+  },
+  {
+    "id": 58,
+    "name": "Design Quirk",
+    "max_tp": 5,
+    "min_tp": -5
+  },
+  {
+    "id": 59,
+    "name": "Vehicle Trait",
+    "max_tp": 12,
+    "min_tp": 1
+  }
+]
